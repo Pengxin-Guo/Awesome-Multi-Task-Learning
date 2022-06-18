@@ -41,3 +41,16 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 ## Uncategorized
 
+- Ma, P., Du, T., & Matusik, W. [Efficient continuous pareto exploration in multi-task learning](https://proceedings.mlr.press/v119/ma20a.html "ParetoMTL"). ICML, 2020.
+- Hoang, N., Lam, T., Low, B. K. H., & Jaillet, P. [Learning task-agnostic embedding of multiple black-box experts for multi-task model fusion](http://proceedings.mlr.press/v119/hoang20b.html).  ICML, 2020.
+- Mahapatra, D., & Rajan, V. [Multi-task learning with user preferences: Gradient descent with controlled ascent in pareto optimization](http://proceedings.mlr.press/v119/mahapatra20a.html "EPO"). ICML, 2020.
+- Mao, Y., Liu, W., & Lin, X. [Adaptive adversarial multi-task representation learning](https://proceedings.mlr.press/v119/mao20a.html "AMTRL"). ICML, 2020.
+- Su, X., Jiang, Y., Guo, S., & Chen, F. [Task understanding from confusing multi-task data](http://proceedings.mlr.press/v119/su20b.html "CSL"). ICML, 2020.
+- Stickland, A. C., & Murray, I. [Bert and pals: Projected attention layers for efficient adaptation in multi-task learning](https://proceedings.mlr.press/v97/stickland19a.html "PALs"). ICML, 2019.
+- Feng, J., Williamson, B., Simon, N., & Carone, M. [Nonparametric variable importance using an augmented neural network with multi-task learning](https://proceedings.mlr.press/v80/feng18a.html). ICML, 2018.
+- Lee, H. B., Yang, E., & Hwang, S. J. [Deep asymmetric multi-task feature learning](http://proceedings.mlr.press/v80/lee18d.html "Deep-AMTFL"). ICML, 2018.
+
+------
+
+Please create an issue if you find we missed some papers.
+
