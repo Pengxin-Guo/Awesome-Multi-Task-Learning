@@ -72,6 +72,21 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 - Alaa, A. M., & Van Der Schaar, M. [Bayesian inference of individualized treatment effects using multi-task gaussian processes](https://proceedings.neurips.cc/paper/2017/hash/6a508a60aa3bf9510ea6acb021c94b48-Abstract.html). NeurIPS, 2017.
 - Bilen, H., & Vedaldi, A. [Integrated perception with recurrent multi-task neural networks](https://proceedings.neurips.cc/paper/2016/hash/06409663226af2f3114485aa4e0a23b4-Abstract.html). NeurIPS, 2016.
 - Murugesan, K., Liu, H., Carbonell, J., & Yang, Y. [Adaptive smoothed online multi-task learning](https://proceedings.neurips.cc/paper/2016/hash/a869ccbcbd9568808b8497e28275c7c8-Abstract.html). NeurIPS, 2016.
+- Liu, L., Li, Y., Kuang, Z., Xue, J. H., Chen, Y., Yang, W., ... & Zhang, W. [Towards Impartial Multi-task Learning](https://openreview.net/forum?id=IMPnRXEWpvr "IMTL"). ICLR, 2021.
+- Meyerson, E., & Miikkulainen, R. [The Traveling Observer Model: Multi-task Learning Through Spatial Variable Embeddings](https://openreview.net/forum?id=qYda4oLEc1 "TOM"). ICLR, 2021.
+- Pilault, J., & Pal, C. [Conditionally Adaptive Multi-Task Learning: Improving Transfer Learning in NLP Using Fewer Parameters & Less Data](https://openreview.net/forum?id=de11dbHzAMF "CA-MTL"). ICLR, 2021.
+- Tay, Y., Zhao, Z., Bahri, D., Metzler, D., & Juan, D. C. [HyperGrid Transformers: Towards A Single Model for Multiple Tasks](https://openreview.net/forum?id=hiq1rHO8pNT). ICLR, 2021.
+- Tiomoko, M., Ali, H. T., & Couillet, R. [Deciphering and optimizing multi-task learning: a random matrix approach](https://openreview.net/forum?id=Cri3xz59ga). ICLR, 2021.
+- Wang, Z., Tsvetkov, Y., Firat, O., & Cao, Y. (2020, September). [Gradient Vaccine: Investigating and Improving Multi-task Optimization in Massively Multilingual Models](https://openreview.net/forum?id=F1vEjWK-lH_ "GradVac"). ICLR, 2021.
+- Wu, S., Zhang, H. R., & Ré, C. [Understanding and Improving Information Transfer in Multi-Task Learning](https://openreview.net/forum?id=SylzhkBtDB&utm_campaign=%E6%AF%8E%E9%80%B1%20NLP%20%E8%AB%96%E6%96%87&utm_medium=email&utm_source=Revue%20newsletter). ICLR, 2020.
+- Mudrakarta, P. K., Sandler, M., Zhmoginov, A., & Howard, A. [K for the Price of 1: Parameter-efficient Multi-task and Transfer Learning](https://openreview.net/forum?id=BJxvEh0cFQ). ICLR, 2019.
+- Ahmad, W. U., Chang, K. W., & Wang, H. [Multi-task learning for document ranking and query suggestion](https://openreview.net/forum?id=SJ1nzBeA-). ICLR, 2018.
+- Rosenbaum, C., Klinger, T., & Riemer, M. [Routing Networks: Adaptive Selection of Non-Linear Functions for Multi-Task Learning](https://openreview.net/forum?id=ry8dvM-R-). ICLR, 2018.
+- Sharma, S., Jha, A. K., Hegde, P. S., & Ravindran, B. [Learning to Multi-Task by Active Sampling](https://openreview.net/forum?id=B1nZ1weCZ). ICLR, 2018.
+- Subramanian, S., Trischler, A., Bengio, Y., & Pal, C. J. [Learning General Purpose Distributed Sentence Representations via Large Scale Multi-task Learning](https://openreview.net/forum?id=B18WgG-CZ&utm_campaign=piqcy&utm_medium=email&utm_source=Revue%20newsletter). ICLR, 2018.
+- Yang, Y., & Hospedales, T. M. [Deep Multi-task Representation Learning: A Tensor Factorisation Approach](https://openreview.net/forum?id=SkhU2fcll). ICLR, 2017.
+- Yang, Y., & Hospedales, T. M. [Trace Norm Regularised Deep Multi-Task Learning](https://openreview.net/forum?id=rknkNR7Ke). ICLR, 2017.
+- Luong, M. T., Le, Q. V., Sutskever, I., Vinyals, O., & Kaiser, L. [Multi-task sequence to sequence learning](https://arxiv.org/abs/1511.06114). ICLR, 2016.
 
 ------
 
