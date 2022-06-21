@@ -1,5 +1,5 @@
 # Awesome-Multi-Task-Learning
-Paper List for Multi-Task Learning. (Mainly since 2016)
+Paper List for Multi-Task Learning. (Since 2016)
 
 Conference: ICML, NeurIPS, ICLR, CVPR, ICCV, ECCV, KDD, UAI, ECML PKDD, etc.
 
@@ -37,10 +37,6 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 #### Optimization Techniques
 
-- [**AMTL**] Lee, G., Yang, E., & Hwang, S. [Asymmetric multi-task learning based on task relatedness and loss](https://proceedings.mlr.press/v48/leeb16.html "AMTL"). ICML, 2016.
-
-  Notes: avoid negative transfer problem; allow for asymmetric information transfer between the tasks.  
-
 #### Loss Balancing
 
 #### Gradient Balancing
@@ -49,7 +45,9 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 ## Others
 
-- 
+- [**AMTL**] Lee, G., Yang, E., & Hwang, S. [Asymmetric multi-task learning based on task relatedness and loss](https://proceedings.mlr.press/v48/leeb16.html "AMTL"). ICML, 2016.
+
+  Notes: avoid negative transfer problem; allow for asymmetric information transfer between the tasks.  
 
 ## Uncategorized
 
