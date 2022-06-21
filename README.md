@@ -37,11 +37,19 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 #### Optimization Techniques
 
+- [**AMTL**] Lee, G., Yang, E., & Hwang, S. [Asymmetric multi-task learning based on task relatedness and loss](https://proceedings.mlr.press/v48/leeb16.html "AMTL"). ICML, 2016.
+
+  Notes: avoid negative transfer problem; allow for asymmetric information transfer between the tasks.  
+
 #### Loss Balancing
 
 #### Gradient Balancing
 
 - Yu, T., Kumar, S., Gupta, A., Levine, S., Hausman, K., & Finn, C. [Gradient surgery for multi-task learning](https://proceedings.neurips.cc/paper/2020/hash/3fe78a8acf5fda99de95303940a2420c-Abstract.html "PCGrad"). NeurIPS, 2020.
+
+## Others
+
+- 
 
 ## Uncategorized
 
@@ -55,7 +63,6 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 - Lee, H. B., Yang, E., & Hwang, S. J. [Deep asymmetric multi-task feature learning](http://proceedings.mlr.press/v80/lee18d.html "Deep-AMTFL"). ICML, 2018.
 - Meyerson, E., & Miikkulainen, R. [Pseudo-task augmentation: From deep multitask learning to intratask sharing—and back](https://proceedings.mlr.press/v80/meyerson18a.html "PTA"). ICML, 2018.
 - Pentina, A., & Lampert, C. H. [Multi-task learning with labeled and unlabeled tasks](https://proceedings.mlr.press/v70/pentina17a.html). ICML, 2017.
-- Lee, G., Yang, E., & Hwang, S. [Asymmetric multi-task learning based on task relatedness and loss](https://proceedings.mlr.press/v48/leeb16.html "AMTL"). ICML, 2016.
 - Abdollahzadeh, M., Malekzadeh, T., & Cheung, N. M. M. [Revisit multimodal meta-learning through the lens of multi-task learning](https://proceedings.neurips.cc/paper/2021/hash/7b3403f79b478699224bb449509694cf-Abstract.html "KML"). NeurIPS, 2021.
 - Fifty, C., Amid, E., Zhao, Z., Yu, T., Anil, R., & Finn, C. [Efficiently identifying task groupings for multi-task learning](https://proceedings.neurips.cc/paper/2021/hash/e77910ebb93b511588557806310f78f1-Abstract.html). NeurIPS, 2021.
 - Li, M., & Sigal, L. [Referring transformer: A one-step approach to multi-task visual grounding](https://proceedings.neurips.cc/paper/2021/hash/a376802c0811f1b9088828288eb0d3f0-Abstract.html). NeurIPS, 2021.
@@ -87,6 +94,16 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 - Yang, Y., & Hospedales, T. M. [Deep Multi-task Representation Learning: A Tensor Factorisation Approach](https://openreview.net/forum?id=SkhU2fcll). ICLR, 2017.
 - Yang, Y., & Hospedales, T. M. [Trace Norm Regularised Deep Multi-Task Learning](https://openreview.net/forum?id=rknkNR7Ke). ICLR, 2017.
 - Luong, M. T., Le, Q. V., Sutskever, I., Vinyals, O., & Kaiser, L. [Multi-task sequence to sequence learning](https://arxiv.org/abs/1511.06114). ICLR, 2016.
+- Li, Z., & Yao, L. [Three birds with one stone: Multi-task temporal action detection via recycling temporal annotations](https://openaccess.thecvf.com/content/CVPR2021/html/Li_Three_Birds_with_One_Stone_Multi-Task_Temporal_Action_Detection_via_CVPR_2021_paper.html). CVPR, 2021.
+- Fu, G., Zhang, Q., Zhu, L., Li, P., & Xiao, C. [A multi-task network for joint specular highlight detection and removal](https://openaccess.thecvf.com/content/CVPR2021/html/Fu_A_Multi-Task_Network_for_Joint_Specular_Highlight_Detection_and_Removal_CVPR_2021_paper.html). CVPR, 2021.
+- Georgescu, M. I., Barbalau, A., Ionescu, R. T., Khan, F. S., Popescu, M., & Shah, M. [Anomaly detection in video via self-supervised and multi-task learning](https://openaccess.thecvf.com/content/CVPR2021/html/Georgescu_Anomaly_Detection_in_Video_via_Self-Supervised_and_Multi-Task_Learning_CVPR_2021_paper.html). CVPR, 2021.
+- Huang, Z., Zhang, J., & Shan, H. [When age-invariant face recognition meets face age synthesis: A multi-task learning framework](https://openaccess.thecvf.com/content/CVPR2021/html/Huang_When_Age-Invariant_Face_Recognition_Meets_Face_Age_Synthesis_A_Multi-Task_CVPR_2021_paper.html). CVPR, 2021.
+- Ishihara, K., Kanervisto, A., Miura, J., & Hautamaki, V. [Multi-task learning with attention for end-to-end autonomous driving](https://openaccess.thecvf.com/content/CVPR2021W/WAD/html/Ishihara_Multi-Task_Learning_With_Attention_for_End-to-End_Autonomous_Driving_CVPRW_2021_paper.html). CVPR, 2021.
+- Khattar, A., Hegde, S., & Hebbalaguppe, R. [Cross-domain multi-task learning for object detection and saliency estimation](https://openaccess.thecvf.com/content/CVPR2021W/CLVision/html/Khattar_Cross-Domain_Multi-Task_Learning_for_Object_Detection_and_Saliency_Estimation_CVPRW_2021_paper.html). CVPR, 2021.
+- Pfister, J., Kobs, K., & Hotho, A. [Self-supervised multi-task pretraining improves image aesthetic assessment](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/html/Pfister_Self-Supervised_Multi-Task_Pretraining_Improves_Image_Aesthetic_Assessment_CVPRW_2021_paper.html). CVPR, 2021.
+- Phillips, J., Martinez, J., Bârsan, I. A., Casas, S., Sadat, A., & Urtasun, R. [Deep multi-task learning for joint localization, perception, and prediction](https://openaccess.thecvf.com/content/CVPR2021/html/Phillips_Deep_Multi-Task_Learning_for_Joint_Localization_Perception_and_Prediction_CVPR_2021_paper.html). CVPR, 2021.
+- Vats, K., Fani, M., Clausi, D. A., & Zelek, J. [Puck localization and multi-task event recognition in broadcast hockey videos](https://openaccess.thecvf.com/content/CVPR2021W/CVSports/html/Vats_Puck_Localization_and_Multi-Task_Event_Recognition_in_Broadcast_Hockey_Videos_CVPRW_2021_paper.html). CVPR, 2021.
+- Yang, L., He, Z., Zhang, J., & Fan, D. [Ksm: Fast multiple task adaption via kernel-wise soft mask learning](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_KSM_Fast_Multiple_Task_Adaption_via_Kernel-Wise_Soft_Mask_Learning_CVPR_2021_paper.html). CVPR, 2021.
 
 ------
 
