@@ -1,4 +1,5 @@
 # Awesome-Multi-Task-Learning
+
 Paper List for Multi-Task Learning. (Since 2016)
 
 Conference: ICML, NeurIPS, ICLR, CVPR, ICCV, ECCV, KDD, UAI, ECML PKDD, etc.
@@ -39,17 +40,21 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 #### Loss Balancing
 
+- [**SMTL**, **OSMTL**] Murugesan, K., Liu, H., Carbonell, J., & Yang, Y. [Adaptive smoothed online multi-task learning](https://proceedings.neurips.cc/paper/2016/hash/a869ccbcbd9568808b8497e28275c7c8-Abstract.html). **NeurIPS**, 2016.
+
+  Notes: *efficiently* learns multiple related tasks by estimating the **task relationship matrix** from the data; maybe can be formulated as an end-to-end training procedure.
+
 #### Gradient Balancing
 
 - Yu, T., Kumar, S., Gupta, A., Levine, S., Hausman, K., & Finn, C. [Gradient surgery for multi-task learning](https://proceedings.neurips.cc/paper/2020/hash/3fe78a8acf5fda99de95303940a2420c-Abstract.html "PCGrad"). NeurIPS, 2020.
 
 ## Others
 
-- [**AMTL**] Lee, G., Yang, E., & Hwang, S. [Asymmetric multi-task learning based on task relatedness and loss](https://proceedings.mlr.press/v48/leeb16.html "AMTL"). ICML, 2016.
+- [**AMTL**] Lee, G., Yang, E., & Hwang, S. [Asymmetric multi-task learning based on task relatedness and loss](https://proceedings.mlr.press/v48/leeb16.html "AMTL"). **ICML**, 2016.
 
-  Notes: avoid negative transfer problem; allow for asymmetric information transfer between the tasks.
+  Notes: avoid **negative transfer** problem; allow for **asymmetric information transfer** between the tasks.
 
-  Assumption: each underlying model parameter is *succinctly* represented by the linear combination of other parameters.  
+  Assumption: each underlying model parameter is *succinctly* represented by the **linear combination** of other parameters.  
 
 ------
 
