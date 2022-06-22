@@ -47,7 +47,9 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 - [**AMTL**] Lee, G., Yang, E., & Hwang, S. [Asymmetric multi-task learning based on task relatedness and loss](https://proceedings.mlr.press/v48/leeb16.html "AMTL"). ICML, 2016.
 
-  Notes: avoid negative transfer problem; allow for asymmetric information transfer between the tasks.  
+  Notes: avoid negative transfer problem; allow for asymmetric information transfer between the tasks.
+
+  Assumption: each underlying model parameter is *succinctly* represented by the linear combination of other parameters.  
 
 ------
 
