@@ -79,6 +79,10 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Assumption: each underlying model parameter is *succinctly* represented by the **linear combination** of other parameters.  
 
+- [**MITL**] Lin, K., Xu, J., Baytas, I. M., Ji, S., & Zhou, J. [Multi-task feature interaction learning](https://dl.acm.org/doi/abs/10.1145/2939672.2939834 "MITL"). **KDD**, 2016.
+
+  Notes: exploit task relatedness in the form of shared representations in both the **original input space** and the **interaction space among features**.  
+
 ------
 
 Please create an issue if you find we missed some papers.
