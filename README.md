@@ -50,7 +50,7 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
   
 - [**FCNN**] Li, X., Zhao, L., Wei, L., Yang, M. H., Wu, F., Zhuang, Y., ... & Wang, J. [Deepsaliency: Multi-task deep neural network model for salient object detection](https://ieeexplore.ieee.org/abstract/document/7488288 "FCNN"). **TIP**, 2016.
 
-  Notes: carry out the task of **saliency detection** in conjunction with the task of **object class segmentation**, which **share a convolution part** with 15 layers.
+  Notes: carry out the task of **saliency detection** in conjunction with the task of **object class segmentation**, which **share a convolution part** with 15 layers; use two networks performing the two tasks by sharing features, which forms a **tree structured network architecture**. 
 
 #### Learning Architectures
 
