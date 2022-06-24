@@ -47,6 +47,10 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 - [**MNC**] Dai, J., He, K., & Sun, J. [Instance-aware semantic segmentation via multi-task network cascades](https://openaccess.thecvf.com/content_cvpr_2016/html/Dai_Instance-Aware_Semantic_Segmentation_CVPR_2016_paper.html "MNC"). **CVPR**, 2016.
 
   Notes: decompose the **instance-aware semantic segmentation** task into three different and related sub-tasks; expect that each sub-task is **simpler** than the original instance segmentation task, and is **more easily** addressed by convolutional networks; their network **cascades** have three stages, each of which addresses one sub-task.
+  
+- [**FCNN**] Li, X., Zhao, L., Wei, L., Yang, M. H., Wu, F., Zhuang, Y., ... & Wang, J. [Deepsaliency: Multi-task deep neural network model for salient object detection](https://ieeexplore.ieee.org/abstract/document/7488288 "FCNN"). **TIP**, 2016.
+
+  Notes: carry out the task of **saliency detection** in conjunction with the task of **object class segmentation**, which **share a convolution part** with 15 layers.
 
 #### Learning Architectures
 
