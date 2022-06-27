@@ -81,6 +81,10 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Notes: mainly based on **tensor normal distributions**; jointly learning **transferable features** and **multilinear relationships**, alleviate the dilemma of **negative-transfer** in feature layers and **under-transfer** in classifier layer.
 
+- [**DMTRL**] Yang, Y., & Hospedales, T. M. [Deep Multi-task Representation Learning: A Tensor Factorisation Approach](https://openreview.net/forum?id=SkhU2fcll "DMTRL"). **ICLR**, 2017.
+
+  Notes: generalise matrix factorisation-based multi-task ideas to **tensor factorisation**; **Tucker Decomposition**; **Tensor Train (TT) Decomposition**.
+
 - [**AMTL**] Lee, G., Yang, E., & Hwang, S. [Asymmetric multi-task learning based on task relatedness and loss](https://proceedings.mlr.press/v48/leeb16.html "AMTL"). **ICML**, 2016.
 
   Notes: avoid **negative transfer** problem; allow for **asymmetric information transfer** between the tasks.
