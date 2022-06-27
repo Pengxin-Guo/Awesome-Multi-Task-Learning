@@ -85,7 +85,7 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Notes: generalise matrix factorisation-based multi-task ideas to **tensor factorisation**; **Tucker Decomposition**; **Tensor Train (TT) Decomposition**.
 
-- [**TNRDMTL**] Yang, Y., & Hospedales, T. M. [Trace Norm Regularised Deep Multi-Task Learning](https://openreview.net/forum?id=rknkNR7Ke "TNRDMTL"). **ICLR Workshop**, 2017.
+- [**TNRDMTL**] Yang, Y., & Hospedales, T. M. [Trace Norm Regularised Deep Multi-Task Learning](https://openreview.net/forum?id=rknkNR7Ke "TNRDMTL"). **ICLR workshop**, 2017.
 
   Notes: the parameters from all models are regularised by the **tensor trace norm**. 
 
