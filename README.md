@@ -100,7 +100,7 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 - [**CILICIA**] Sarafianos, N., Giannakopoulos, T., Nikou, C., & Kakadiaris, I. A. [Curriculum learning for multi-task classification of visual attributes](https://openaccess.thecvf.com/content_ICCV_2017_workshops/w38/html/Sarafianos_Curriculum_Learning_for_ICCV_2017_paper.html "CILICIA"). **ICCV workshop**, 2017.
 
-  Notes: individual tasks are grouped based on their correlation so that **two groups of strongly and weakly correlated tasks** are formed; the two groups of tasks are learned in a **curriculum learning** setup by transferring the acquired knowledge **from the strongly to the weakly correlated**; the learning process within each group though, is performed in a **multi-task** classification setup.  
+  Notes: individual tasks are grouped based on their correlation so that **two groups of strongly and weakly correlated tasks** are formed; the two groups of tasks are learned in a **curriculum learning** setup by transferring the acquired knowledge **from the strongly to the weakly correlated**; the learning process within each group is performed in a **multi-task** classification setup.  
 
 - [**AMTL**] Lee, G., Yang, E., & Hwang, S. [Asymmetric multi-task learning based on task relatedness and loss](https://proceedings.mlr.press/v48/leeb16.html "AMTL"). **ICML**, 2016.
 
