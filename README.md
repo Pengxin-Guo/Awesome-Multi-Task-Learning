@@ -102,6 +102,10 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Notes: individual tasks are grouped based on their correlation so that **two groups of strongly and weakly correlated tasks** are formed; the two groups of tasks are learned in a **curriculum learning** setup by transferring the acquired knowledge **from the strongly to the weakly correlated**; the learning process within each group is performed in a **multi-task** classification setup.  
 
+- [**HC-MTL**] Liu, A. A., Su, Y. T., Nie, W. Z., & Kankanhalli, M. [Hierarchical clustering multi-task learning for joint human action grouping and recognition](https://ieeexplore.ieee.org/abstract/document/7423818 "HC-MTL"). **TPAMI**, 2017.
+
+  Notes: formulate the objective function with two latent variables, **model parameters** and **grouping information**, for joint optimization; decompose it into two sub-tasks, **multi-task learning** and **task relatedness discovery**, and **iteratively** solve the two sub-tasks.
+
 - [**AMTL**] Lee, G., Yang, E., & Hwang, S. [Asymmetric multi-task learning based on task relatedness and loss](https://proceedings.mlr.press/v48/leeb16.html "AMTL"). **ICML**, 2016.
 
   Notes: avoid **negative transfer** problem; allow for **asymmetric information transfer** between the tasks.
