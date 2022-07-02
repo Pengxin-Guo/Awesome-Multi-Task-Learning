@@ -38,7 +38,7 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 - [**multinet**] Bilen, H., & Vedaldi, A. [Integrated perception with recurrent multi-task neural networks](https://proceedings.neurips.cc/paper/2016/hash/06409663226af2f3114485aa4e0a23b4-Abstract.html "multinet"). **NeurIPS**, 2016.
 
-  Notes: not only **deep image features are shared** between tasks, but where tasks can interact in a **recurrent** manner by encoding the results of their analysis in a common shared representation of the data. 
+  Notes: not only **deep image features are shared** between tasks, but where tasks can interact in a **recurrent** manner by encoding the results of their analysis in a common shared representation of the data.
 
 - [**Cross-stitch**] Misra, I., Shrivastava, A., Gupta, A., & Hebert, M. [Cross-stitch networks for multi-task learning](https://openaccess.thecvf.com/content_cvpr_2016/html/Misra_Cross-Stitch_Networks_for_CVPR_2016_paper.html "Cross-stitch"). **CVPR**, 2016.
 
@@ -50,7 +50,7 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 - [**FCNN**] Li, X., Zhao, L., Wei, L., Yang, M. H., Wu, F., Zhuang, Y., ... & Wang, J. [Deepsaliency: Multi-task deep neural network model for salient object detection](https://ieeexplore.ieee.org/abstract/document/7488288 "FCNN"). **TIP**, 2016.
 
-  Notes: carry out the task of **saliency detection** in conjunction with the task of **object class segmentation**, which **share a convolution part** with 15 layers; use two networks performing the two tasks by sharing features, which forms a **tree structured network architecture**. 
+  Notes: carry out the task of **saliency detection** in conjunction with the task of **object class segmentation**, which **share a convolution part** with 15 layers; use two networks performing the two tasks by sharing features, which forms a **tree structured network architecture**.
 
 #### Learning Architectures
 
@@ -96,29 +96,33 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 - [**TNRDMTL**] Yang, Y., & Hospedales, T. M. [Trace Norm Regularised Deep Multi-Task Learning](https://openreview.net/forum?id=rknkNR7Ke "TNRDMTL"). **ICLR workshop**, 2017.
 
-  Notes: the parameters from all models are regularised by the **tensor trace norm**. 
+  Notes: the parameters from all models are regularised by the **tensor trace norm**.
 
 - [**CILICIA**] Sarafianos, N., Giannakopoulos, T., Nikou, C., & Kakadiaris, I. A. [Curriculum learning for multi-task classification of visual attributes](https://openaccess.thecvf.com/content_ICCV_2017_workshops/w38/html/Sarafianos_Curriculum_Learning_for_ICCV_2017_paper.html "CILICIA"). **ICCV workshop**, 2017.
 
-  Notes: individual tasks are grouped based on their correlation so that **two groups of strongly and weakly correlated tasks** are formed; the two groups of tasks are learned in a **curriculum learning** setup by transferring the acquired knowledge **from the strongly to the weakly correlated**; the learning process within each group is performed in a **multi-task** classification setup.  
+  Notes: individual tasks are grouped based on their correlation so that **two groups of strongly and weakly correlated tasks** are formed; the two groups of tasks are learned in a **curriculum learning** setup by transferring the acquired knowledge **from the strongly to the weakly correlated**; the learning process within each group is performed in a **multi-task** classification setup.
 
 - [**HC-MTL**] Liu, A. A., Su, Y. T., Nie, W. Z., & Kankanhalli, M. [Hierarchical clustering multi-task learning for joint human action grouping and recognition](https://ieeexplore.ieee.org/abstract/document/7423818 "HC-MTL"). **TPAMI**, 2017.
 
   Notes: formulate the objective function with two latent variables, **model parameters** and **grouping information**, for joint optimization; decompose it into two sub-tasks, **multi-task learning** and **task relatedness discovery**, and **iteratively** solve the two sub-tasks.
 
+- [**HD-MTL**] Fan, J., Zhao, T., Kuang, Z., Zheng, Y., Zhang, J., Yu, J., & Peng, J. [HD-MTL: Hierarchical deep multi-task learning for large-scale visual recognition](https://ieeexplore.ieee.org/abstract/document/7849143 "HD-MTL"). **TIP**, 2017.
+
+  Notes: **multiple sets of deep features** are extracted from the **different layers**; a **visual tree** is learned by assigning the visually-similar atomic object classes with similar learning complexities into the same group, it can provide a good environment for **identifying the inter-related learning tasks** automatically. 
+
 - [**AMTL**] Lee, G., Yang, E., & Hwang, S. [Asymmetric multi-task learning based on task relatedness and loss](https://proceedings.mlr.press/v48/leeb16.html "AMTL"). **ICML**, 2016.
 
   Notes: avoid **negative transfer** problem; allow for **asymmetric information transfer** between the tasks.
 
-  Assumption: each underlying model parameter is *succinctly* represented by the **linear combination** of other parameters.  
+  Assumption: each underlying model parameter is *succinctly* represented by the **linear combination** of other parameters.
 
 - [**MITL**] Lin, K., Xu, J., Baytas, I. M., Ji, S., & Zhou, J. [Multi-task feature interaction learning](https://dl.acm.org/doi/abs/10.1145/2939672.2939834 "MITL"). **KDD**, 2016.
 
-  Notes: exploit task relatedness in the form of shared representations in both the **original input space** and the **interaction space among features**.  
+  Notes: exploit task relatedness in the form of shared representations in both the **original input space** and the **interaction space among features**.
 
 - [**FCMTL**] Zhou, Q., & Zhao, Q. [Flexible clustered multi-task learning by learning representative tasks](https://ieeexplore.ieee.org/abstract/document/7150415 "FCMTL"). **TPAMI**, 2016.
 
-  Notes: a subset of tasks (**representative tasks**) in multi-task learning can be used to represent other tasks due to the similarity among multiple tasks; allow **one task to be clustered into multiple clusters**, and with different weights.  
+  Notes: a subset of tasks (**representative tasks**) in multi-task learning can be used to represent other tasks due to the similarity among multiple tasks; allow **one task to be clustered into multiple clusters**, and with different weights.
 
 ------
 
