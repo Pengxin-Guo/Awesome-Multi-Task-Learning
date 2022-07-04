@@ -86,6 +86,11 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 ## Others
 
+- [**AMTFL**, **Deep-AMTFL**]Lee, H. B., Yang, E., & Hwang, S. J. [Deep asymmetric multi-task feature learning](http://proceedings.mlr.press/v80/lee18d.html "AMTFL, Deep-AMTFL"). **ICML**, 2018.
+
+  Notes: introduce an **asymmetric autoencoder** term that allows reliable predictors for the easy
+  tasks to have high contribution to the **feature learning** while suppressing the influences of unreliable predictors for more difficult tasks; the reconstruction is done in the **feature space** and in a **non-linear** manner.
+
 - [**MRN**] Long, M., Cao, Z., Wang, J., & Yu, P. S. [Learning multiple tasks with multilinear relationship networks](https://proceedings.neurips.cc/paper/2017/hash/03e0704b5690a2dee1861dc3ad3316c9-Abstract.html "MRN"). **NeurIPS**, 2017.
 
   Notes: mainly based on **tensor normal distributions**; jointly learning **transferable features** and **multilinear relationships**, alleviate the dilemma of **negative-transfer** in feature layers and **under-transfer** in classifier layer.
@@ -114,7 +119,7 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Notes: avoid **negative transfer** problem; allow for **asymmetric information transfer** between the tasks.
 
-  Assumption: each underlying model parameter is *succinctly* represented by the **linear combination** of other parameters.
+  Assumption: each underlying **model parameter** is *succinctly* represented by the **linear combination** of other parameters.
 
 - [**MITL**] Lin, K., Xu, J., Baytas, I. M., Ji, S., & Zhou, J. [Multi-task feature interaction learning](https://dl.acm.org/doi/abs/10.1145/2939672.2939834 "MITL"). **KDD**, 2016.
 
