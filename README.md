@@ -84,6 +84,12 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 - Yu, T., Kumar, S., Gupta, A., Levine, S., Hausman, K., & Finn, C. [Gradient surgery for multi-task learning](https://proceedings.neurips.cc/paper/2020/hash/3fe78a8acf5fda99de95303940a2420c-Abstract.html "PCGrad"). NeurIPS, 2020.
 
+- [**GradNorm**] Chen, Z., Badrinarayanan, V., Lee, C. Y., & Rabinovich, A. [Gradnorm: Gradient normalization for adaptive loss balancing in deep multitask networks](http://proceedings.mlr.press/v80/chen18a.html?ref=https://githubhelp.com "GradNorm"). **ICML**, 2018.
+
+  Notes: automatically balances training in deep multitask models by **dynamically tuning gradient magnitudes**; establish a **common scale** for **gradient magnitudes**, and **balance training rates** of different tasks.
+  
+  Q: **Does it necessary to make the gradient magnitudes of different tasks to a common scale?** or **Why?**
+
 ## Others
 
 - [**AMTFL**, **Deep-AMTFL**]Lee, H. B., Yang, E., & Hwang, S. J. [Deep asymmetric multi-task feature learning](http://proceedings.mlr.press/v80/lee18d.html "AMTFL, Deep-AMTFL"). **ICML**, 2018.
