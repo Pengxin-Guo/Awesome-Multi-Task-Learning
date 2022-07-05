@@ -28,10 +28,6 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 - Strezoski, G., Noord, N. V., & Worring, M. [Many task learning with task routing](https://openaccess.thecvf.com/content_ICCV_2019/html/Strezoski_Many_Task_Learning_With_Task_Routing_ICCV_2019_paper.html "MaTL"). ICCV, 2019.
 
-- He, X., Zhou, Z., & Thiele, L. [Multi-task zipping via layer-wise neuron sharing](https://proceedings.neurips.cc/paper/2018/hash/ad8e88c0f76fa4fc8e5474384142a00a-Abstract.html "MTZ"). NeurIPS, 2018.
-
-- Mordan, T., Thome, N., Henaff, G., & Cord, M. [Revisiting multi-task learning with rock: a deep residual auxiliary block for visual detection](https://proceedings.neurips.cc/paper/2018/hash/7f5d04d189dfb634e6a85bb9d9adf21e-Abstract.html "ROCK"). NeurIPS, 2018.
-
 - Cao, J., Li, Y., & Zhang, Z. [Partially shared multi-task convolutional neural network with local constraint for face attribute learning](https://openaccess.thecvf.com/content_cvpr_2018/html/Cao_Partially_Shared_Multi-Task_CVPR_2018_paper.html "PS-MCNN"). CVPR, 2018.
 
 - Ma, J., Zhao, Z., Yi, X., Chen, J., Hong, L., & Chi, E. H. [Modeling task relationships in multi-task learning with multi-gate mixture-of-experts](https://dl.acm.org/doi/abs/10.1145/3219819.3220007 "MMoE)"). KDD, 2018.
@@ -64,7 +60,9 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 - Bruggemann, D., Kanakis, M., Georgoulis, S., & Van Gool, L. [Automated Search for Resource-Efficient Branched Multi-Task Networks](https://www.bmvc2020-conference.com/assets/papers/0359.pdf "BMTAS"). BMVC, 2020.
 
-- Rosenbaum, C., Klinger, T., & Riemer, M. [Routing Networks: Adaptive Selection of Non-Linear Functions for Multi-Task Learning](https://openreview.net/forum?id=ry8dvM-R- "Routing Networks"). ICLR, 2018.
+- [**Routing Network**] Rosenbaum, C., Klinger, T., & Riemer, M. [Routing Networks: Adaptive Selection of Non-Linear Functions for Multi-Task Learning](https://openreview.net/forum?id=ry8dvM-R- "Routing Network"). **ICLR**, 2018.
+
+  Notes: **Routing** is the process of iteratively applying the **router** to select a sequence of **function blocks** to be composed and applied to the input vector.   
 
 - Lu, Y., Kumar, A., Zhai, S., Cheng, Y., Javidi, T., & Feris, R. [Fully-adaptive feature sharing in multi-task networks with applications in person attribute classification](https://openaccess.thecvf.com/content_cvpr_2017/html/Lu_Fully-Adaptive_Feature_Sharing_CVPR_2017_paper.html). **CVPR**, 2017.
 
