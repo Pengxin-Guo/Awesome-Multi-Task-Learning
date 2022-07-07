@@ -86,9 +86,9 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
   
   Q1:  Their results show that there is usually not a single optimal weighting for all tasks. Therefore, **what is the optimal weighting?**  Is multi-task learning is an ill-posed optimisation problem without a single higher-level goal?
   
-  Q2: **Where the optimal location is for splitting the shared encoder network into separate decoders for each task?** And, what network depth is best for the shared multi-task representation?
+  Q2: Why do the semantics and depth tasks outperform the semantics and instance tasks results? Clearly the three tasks explored in this paper are complimentary and useful for learning a rich representation about the scene. **But can we quantify relationships between tasks?**
   
-  Q3: Why do the semantics and depth tasks outperform the semantics and instance tasks results? Clearly the three tasks explored in this paper are complimentary and useful for learning a rich representation about the scene. **But can we quantify relationships between tasks?**
+  Q3: **Where the optimal location is for splitting the shared encoder network into separate decoders for each task?** And, what network depth is best for the shared multi-task representation?
   
 - [**SMTL**, **OSMTL**] Murugesan, K., Liu, H., Carbonell, J., & Yang, Y. [Adaptive smoothed online multi-task learning](https://proceedings.neurips.cc/paper/2016/hash/a869ccbcbd9568808b8497e28275c7c8-Abstract.html). **NeurIPS**, 2016.
 
