@@ -80,6 +80,16 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 #### Loss Balancing
 
+- [**Uncertainty**] Kendall, A., Gal, Y., & Cipolla, R. [Multi-task learning using uncertainty to weigh losses for scene geometry and semantics](https://openaccess.thecvf.com/content_cvpr_2018/html/Kendall_Multi-Task_Learning_Using_CVPR_2018_paper.html "Uncertainty"). **CVPR**, 2018.
+
+  Notes: weighs multiple loss functions by considering the **homoscedastic uncertainty** of each task.
+  
+  Q1:  Their results show that there is usually not a single optimal weighting for all tasks. Therefore, **what is the optimal weighting?**  Is multi-task learning is an ill-posed optimisation problem without a single higher-level goal?
+  
+  Q2: **Where the optimal location is for splitting the shared encoder network into separate decoders for each task?** And, what network depth is best for the shared multi-task representation?
+  
+  Q3: Why do the semantics and depth tasks outperform the semantics and instance tasks results? Clearly the three tasks explored in this paper are complimentary and useful for learning a rich representation about the scene. **But can we quantify relationships between tasks?**
+  
 - [**SMTL**, **OSMTL**] Murugesan, K., Liu, H., Carbonell, J., & Yang, Y. [Adaptive smoothed online multi-task learning](https://proceedings.neurips.cc/paper/2016/hash/a869ccbcbd9568808b8497e28275c7c8-Abstract.html). **NeurIPS**, 2016.
 
   Notes: *efficiently* learns multiple related tasks by estimating the **task relationship matrix** from the data; maybe can be formulated as an end-to-end training procedure.
