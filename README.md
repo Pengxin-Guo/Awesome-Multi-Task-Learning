@@ -94,6 +94,10 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
   
   Q3: **Where the optimal location is for splitting the shared encoder network into separate decoders for each task?** And, what network depth is best for the shared multi-task representation?
   
+- [**SPMTL**] Li, C., Yan, J., Wei, F., Dong, W., Liu, Q., & Zha, H. [Self-paced multi-task learning](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewFile/14535/14390 "SPMTL"). **AAAI**, 2017.
+
+  Notes: learn the multi-task model in a **self-paced** regime, **from easy instances and tasks to hard instances and tasks**.
+
 - [**SMTL**, **OSMTL**] Murugesan, K., Liu, H., Carbonell, J., & Yang, Y. [Adaptive smoothed online multi-task learning](https://proceedings.neurips.cc/paper/2016/hash/a869ccbcbd9568808b8497e28275c7c8-Abstract.html). **NeurIPS**, 2016.
 
   Notes: *efficiently* learns multiple related tasks by estimating the **task relationship matrix** from the data; maybe can be formulated as an end-to-end training procedure.
