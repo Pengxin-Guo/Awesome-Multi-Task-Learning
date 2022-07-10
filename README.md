@@ -94,6 +94,10 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
   
   Q3: **Where the optimal location is for splitting the shared encoder network into separate decoders for each task?** And, what network depth is best for the shared multi-task representation?
   
+- [**Dynamic**] Guo, M., Haque, A., Huang, D. A., Yeung, S., & Fei-Fei, L. [Dynamic task prioritization for multitask learning](https://openaccess.thecvf.com/content_ECCV_2018/html/Michelle_Guo_Focus_on_the_ECCV_2018_paper.html "Dynamic"). **ECCV**, 2018.
+
+  Notes: automatically **prioritize more difficult tasks** by adaptively **adjusting the mixing weight of each task’s loss objective**.
+
 - [**SPMTL**] Li, C., Yan, J., Wei, F., Dong, W., Liu, Q., & Zha, H. [Self-paced multi-task learning](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewFile/14535/14390 "SPMTL"). **AAAI**, 2017.
 
   Notes: learn the multi-task model in a **self-paced** regime, **from easy instances and tasks to hard instances and tasks**.
