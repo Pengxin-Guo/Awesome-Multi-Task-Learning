@@ -115,6 +115,15 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
   Notes: automatically balances training in deep multitask models by **dynamically tuning gradient magnitudes**; establish a **common scale** for **gradient magnitudes**, and **balance training rates** of different tasks.
   
   Q: **Does it necessary to make the gradient magnitudes of different tasks to a common scale?** or **Why?**
+  
+- [**Modulation**] Zhao, X., Li, H., Shen, X., Liang, X., & Wu, Y. [A modulation module for multi-task learning with applications in image retrieval](https://openaccess.thecvf.com/content_ECCV_2018/html/Xiangyun_Zhao_A_Modulation_Module_ECCV_2018_paper.html "Modulation"). **ECCV**, 2018.
+
+  Notes: propose a general **modulation module**, which can be inserted into any convolutional neural network architecture, to encourage the **coupling and feature sharing of relevant tasks** while **disentangling the learning of irrelevant tasks** with minor parameters addition; equipped with this module, **gradient directions from different tasks can be enforced to be consistent for those shared parameters**.
+
+  Q1: Is it harmful if we force the gradient direction of **irrelevant tasks** to be consistent with the shared parameters? Since the objective of this work is to make the gradient directions of different tasks to be consistent, does it will be worse if the gradient direction of **irrelevant tasks** to be consistent?
+
+  Q2: Why "Since the task-specific masks/projection matrices are learnable, we observe that the
+  training process will *naturally* mitigate the destructive interference by reducing the average across-task gradient angles $ <\mathbf{M}_t \Delta \theta_t, \mathbf{M}_t' \Delta \theta_t'> $" happens? What term in the loss function guide this phenomenon?
 
 ## Others
 
