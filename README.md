@@ -123,7 +123,7 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
   Q1: Is it harmful if we force the gradient direction of **irrelevant tasks** to be consistent with the shared parameters? Since the objective of this work is to make the gradient directions of different tasks to be consistent, does it will be worse if the gradient direction of **irrelevant tasks** to be consistent?
 
   Q2: Why "Since the task-specific masks/projection matrices are learnable, we observe that the
-  training process will *naturally* mitigate the destructive interference by reducing the average across-task gradient angles $ <\mathbf{M}_t \Delta \theta_t, \mathbf{M}_{t''} \Delta \theta_{t''}> $" happens? What term in the loss function guide this phenomenon?
+  training process will *naturally* mitigate the destructive interference by reducing the average across-task gradient angles $ <\mathbf{M}_t \Delta \theta_t, \mathbf{M}_t'' \Delta \theta_t''> $" happens? What term in the loss function guide this phenomenon?
 
 ## Others
 
