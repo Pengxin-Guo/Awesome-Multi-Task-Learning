@@ -28,11 +28,19 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 - Strezoski, G., Noord, N. V., & Worring, M. [Many task learning with task routing](https://openaccess.thecvf.com/content_ICCV_2019/html/Strezoski_Many_Task_Learning_With_Task_Routing_ICCV_2019_paper.html "MaTL"). ICCV, 2019.
 
-- Ma, J., Zhao, Z., Yi, X., Chen, J., Hong, L., & Chi, E. H. [Modeling task relationships in multi-task learning with multi-gate mixture-of-experts](https://dl.acm.org/doi/abs/10.1145/3219819.3220007 "MMoE)"). KDD, 2018.
-
 - [**PS-MCNN**] Cao, J., Li, Y., & Zhang, Z. [Partially shared multi-task convolutional neural network with local constraint for face attribute learning](https://openaccess.thecvf.com/content_cvpr_2018/html/Cao_Partially_Shared_Multi-Task_CVPR_2018_paper.html "PS-MCNN"). **CVPR**, 2018.
 
   Notes: the key idea of **PS-MCNN** lies in **sharing a common network for all the groups to learn shared features**, and **constructing group specific network for each group** from the beginning of the architecture to its end to **learn task specific features**; four Task Specific Networks (**TSNets**) and one Shared Network (**SNet**) are connected by Partially Shared (**PS**) structures to learn better **shared** and **task specific** representations.
+
+- [**MMoE**] Ma, J., Zhao, Z., Yi, X., Chen, J., Hong, L., & Chi, E. H. [Modeling task relationships in multi-task learning with multi-gate mixture-of-experts](https://dl.acm.org/doi/abs/10.1145/3219819.3220007 "MMoE"). **KDD**, 2018.
+
+  Notes: adapt the Mixture-of-Experts (MoE) structure to multi-task learning by sharing the expert submodels across all tasks, while also having a **gating network** trained to optimize each task; the gating networks take the input features and **output softmax gates assembling the experts with different weights**, allowing different tasks to utilize experts differently.
+
+  Q1: **How to determine the number of experts? Is it same to the task number?**
+
+  Q2: **What is the architecture of each expert?** Is each expert same to the shared bottom? If this, the model parameters of MMoE will become so large.
+
+  Q3: **Why the shared-bottom method is still inferior to MMoE on two identical tasks?** (Figure 4(c)) **Does it means even for two totally relevant tasks, we still cannot share all the parameters in the bottom layers?**
 
 - [**UberNet**] Kokkinos, I. [Ubernet: Training a universal convolutional neural network for low-, mid-, and high-level vision using diverse datasets and limited memory](https://openaccess.thecvf.com/content_cvpr_2017/html/Kokkinos_Ubernet_Training_a_CVPR_2017_paper.html "UberNet"). **CVPR**, 2017.
 
