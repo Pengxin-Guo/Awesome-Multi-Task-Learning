@@ -22,11 +22,15 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 - Liu, S., Johns, E., & Davison, A. J. [End-to-end multi-task learning with attention](https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_End-To-End_Multi-Task_Learning_With_Attention_CVPR_2019_paper.html "MTAN"). CVPR, 2019.
 
-- Gao, Y., Ma, J., Zhao, M., Liu, W., & Yuille, A. L. [Nddr-cnn: Layerwise feature fusing in multi-task cnns by neural discriminative dimensionality reduction](https://openaccess.thecvf.com/content_CVPR_2019/html/Gao_NDDR-CNN_Layerwise_Feature_Fusing_in_Multi-Task_CNNs_by_Neural_Discriminative_CVPR_2019_paper.html "NDDR-CNN"). CVPR, 2019.
-
 - Bragman, F. J., Tanno, R., Ourselin, S., Alexander, D. C., & Cardoso, J. [Stochastic filter groups for multi-task cnns: Learning specialist and generalist convolution kernels](https://openaccess.thecvf.com/content_ICCV_2019/html/Bragman_Stochastic_Filter_Groups_for_Multi-Task_CNNs_Learning_Specialist_and_Generalist_ICCV_2019_paper.html "SFG"). ICCV, 2019.
 
 - Strezoski, G., Noord, N. V., & Worring, M. [Many task learning with task routing](https://openaccess.thecvf.com/content_ICCV_2019/html/Strezoski_Many_Task_Learning_With_Task_Routing_ICCV_2019_paper.html "MaTL"). ICCV, 2019.
+
+- [**NDDR-CNN**, **NDDR-CNN-Shortcut**] Gao, Y., Ma, J., Zhao, M., Liu, W., & Yuille, A. L. [Nddr-cnn: Layerwise feature fusing in multi-task cnns by neural discriminative dimensionality reduction](https://openaccess.thecvf.com/content_CVPR_2019/html/Gao_NDDR-CNN_Layerwise_Feature_Fusing_in_Multi-Task_CNNs_by_Neural_Discriminative_CVPR_2019_paper.html "NDDR-CNN, NDDR-CNN-Shortcut"). **CVPR**, 2019.
+
+  Motivation: **Why would we assume that the low- and mid-level features for different tasks in MTL should be identical, especially when the tasks are loosely related? If not, is it optimal to share the features until the last convolutional layer?**
+
+  Notes: they hypothesize that **these features, obtained from multiple feature descriptors (i.e., different CNN levels from multiple tasks), contain additional discriminative information of input data, which should be exploited in MTL towards better performance**; they **concatenate** all the task-specific features with the same spatial resolution from different tasks according to the feature channel dimension, conduct **discriminative dimensionality reduction** on the concatenated features.
 
 - [**PS-MCNN**] Cao, J., Li, Y., & Zhang, Z. [Partially shared multi-task convolutional neural network with local constraint for face attribute learning](https://openaccess.thecvf.com/content_cvpr_2018/html/Cao_Partially_Shared_Multi-Task_CVPR_2018_paper.html "PS-MCNN"). **CVPR**, 2018.
 
@@ -92,7 +96,7 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 #### Loss Balancing
 
-- [**MultiNet++, GLS**] Chennupati, S., Sistu, G., Yogamani, S., & A Rawashdeh, S. [Multinet++: Multi-stream feature aggregation and geometric loss strategy for multi-task learning](https://openaccess.thecvf.com/content_CVPRW_2019/html/WAD/Chennupati_MultiNet_Multi-Stream_Feature_Aggregation_and_Geometric_Loss_Strategy_for_Multi-Task_CVPRW_2019_paper.html "MultiNet++, GLS"). **CVPR workshop**, 2019.
+- [**MultiNet++**, **GLS**] Chennupati, S., Sistu, G., Yogamani, S., & A Rawashdeh, S. [Multinet++: Multi-stream feature aggregation and geometric loss strategy for multi-task learning](https://openaccess.thecvf.com/content_CVPRW_2019/html/WAD/Chennupati_MultiNet_Multi-Stream_Feature_Aggregation_and_Geometric_Loss_Strategy_for_Multi-Task_CVPRW_2019_paper.html "MultiNet++, GLS"). **CVPR workshop**, 2019.
 
   Notes: they propose a **multi-stream multi-task network** to take advantage of using feature representations from **preceding frames in a video sequence** for joint learning of segmentation, depth, and motion; they express the total loss of a multi-task learning problem as **geometric mean** of individual task losses, they refer to this as Geometric Loss Strategy (**GLS**).
   
