@@ -92,6 +92,10 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 #### Loss Balancing
 
+- [**MultiNet++, GLS**] Chennupati, S., Sistu, G., Yogamani, S., & A Rawashdeh, S. [Multinet++: Multi-stream feature aggregation and geometric loss strategy for multi-task learning](https://openaccess.thecvf.com/content_CVPRW_2019/html/WAD/Chennupati_MultiNet_Multi-Stream_Feature_Aggregation_and_Geometric_Loss_Strategy_for_Multi-Task_CVPRW_2019_paper.html "MultiNet++, GLS"). **CVPR workshop**, 2019.
+
+  Notes: they propose a **multi-stream multi-task network** to take advantage of using feature representations from **preceding frames in a video sequence** for joint learning of segmentation, depth, and motion; they express the total loss of a multi-task learning problem as **geometric mean** of individual task losses, they refer to this as Geometric Loss Strategy (**GLS**).
+  
 - [**Uncertainty**] Kendall, A., Gal, Y., & Cipolla, R. [Multi-task learning using uncertainty to weigh losses for scene geometry and semantics](https://openaccess.thecvf.com/content_cvpr_2018/html/Kendall_Multi-Task_Learning_Using_CVPR_2018_paper.html "Uncertainty"). **CVPR**, 2018.
 
   Notes: weighs multiple loss functions by considering the **homoscedastic uncertainty** of each task.
