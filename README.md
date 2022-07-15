@@ -34,7 +34,7 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Notes: consists of a single shared network containing a global feature pool, together with a **soft-attention module for each task**; Dynamic Weight Average (**DWA**), which adapts the task weighting over time by considering the rate of change of the loss for each task.
 
-  Q: **Can we reduce the $K$ task-specific attention networks to one task-specific attention network to further reduce the parameters?** This task-specific attention network can receive the task embeddings and the shared features as input.
+  Q: **Can we replace the $K$ task-specific attention networks with one task-specific attention network to further reduce the parameters?** This task-specific attention network can receive the task embeddings and the shared features as input.
 
 - [**PS-MCNN**] Cao, J., Li, Y., & Zhang, Z. [Partially shared multi-task convolutional neural network with local constraint for face attribute learning](https://openaccess.thecvf.com/content_cvpr_2018/html/Cao_Partially_Shared_Multi-Task_CVPR_2018_paper.html "PS-MCNN"). **CVPR**, 2018.
 
