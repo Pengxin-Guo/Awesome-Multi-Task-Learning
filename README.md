@@ -20,8 +20,6 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 - Cui, C., Shen, Z., Huang, J., Chen, M., Xu, M., Wang, M., & Yin, Y. [Adaptive feature aggregation in deep multi-task convolutional neural networks](https://ieeexplore.ieee.org/abstract/document/944988 "AFANet"). IEEE Transactions on Circuits and Systems for Video Technology, 2019.
 
-- Liu, S., Johns, E., & Davison, A. J. [End-to-end multi-task learning with attention](https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_End-To-End_Multi-Task_Learning_With_Attention_CVPR_2019_paper.html "MTAN"). CVPR, 2019.
-
 - Bragman, F. J., Tanno, R., Ourselin, S., Alexander, D. C., & Cardoso, J. [Stochastic filter groups for multi-task cnns: Learning specialist and generalist convolution kernels](https://openaccess.thecvf.com/content_ICCV_2019/html/Bragman_Stochastic_Filter_Groups_for_Multi-Task_CNNs_Learning_Specialist_and_Generalist_ICCV_2019_paper.html "SFG"). ICCV, 2019.
 
 - Strezoski, G., Noord, N. V., & Worring, M. [Many task learning with task routing](https://openaccess.thecvf.com/content_ICCV_2019/html/Strezoski_Many_Task_Learning_With_Task_Routing_ICCV_2019_paper.html "MaTL"). ICCV, 2019.
@@ -31,6 +29,12 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
   Motivation: **Why would we assume that the low- and mid-level features for different tasks in MTL should be identical, especially when the tasks are loosely related? If not, is it optimal to share the features until the last convolutional layer?**
 
   Notes: they hypothesize that **these features, obtained from multiple feature descriptors (i.e., different CNN levels from multiple tasks), contain additional discriminative information of input data, which should be exploited in MTL towards better performance**; they **concatenate** all the task-specific features with the same spatial resolution from different tasks according to the feature channel dimension, conduct **discriminative dimensionality reduction** on the concatenated features.
+
+- [**MTAN**, **DWA**] Liu, S., Johns, E., & Davison, A. J. [End-to-end multi-task learning with attention](https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_End-To-End_Multi-Task_Learning_With_Attention_CVPR_2019_paper.html "MTAN, DWA"). **CVPR**, 2019.
+
+  Notes: consists of a single shared network containing a global feature pool, together with a **soft-attention module for each task**; Dynamic Weight Average (**DWA**), which adapts the task weighting over time by considering the rate of change of the loss for each task.
+
+  Q: **Can we reduce the $K$ task-specific attention networks to one task-specific attention network to further reduce the parameters?** This task-specific attention network can receive the task embeddings and the shared features as input.
 
 - [**PS-MCNN**] Cao, J., Li, Y., & Zhang, Z. [Partially shared multi-task convolutional neural network with local constraint for face attribute learning](https://openaccess.thecvf.com/content_cvpr_2018/html/Cao_Partially_Shared_Multi-Task_CVPR_2018_paper.html "PS-MCNN"). **CVPR**, 2018.
 
