@@ -82,6 +82,10 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 - Bruggemann, D., Kanakis, M., Georgoulis, S., & Van Gool, L. [Automated Search for Resource-Efficient Branched Multi-Task Networks](https://www.bmvc2020-conference.com/assets/papers/0359.pdf "BMTAS"). BMVC, 2020.
 
+- [**DEN**] Ahn, C., Kim, E., & Oh, S. [Deep elastic networks with model selection for multi-task learning](https://openaccess.thecvf.com/content_ICCV_2019/html/Ahn_Deep_Elastic_Networks_With_Model_Selection_for_Multi-Task_Learning_ICCV_2019_paper.html "DEN"). **ICCV**, 2019.
+
+  Notes: the proposed method consists of an **estimator** and a **selector**, the estimator can produce multiple different network models of different configurations in a hierarchical structure, the selector chooses a model dynamically from a pool of candidate models given an input instance.
+
 - [**Routing Network**] Rosenbaum, C., Klinger, T., & Riemer, M. [Routing Networks: Adaptive Selection of Non-Linear Functions for Multi-Task Learning](https://openreview.net/forum?id=ry8dvM-R- "Routing Network"). **ICLR**, 2018.
 
   Notes: **Routing** is the process of iteratively applying the **router** to select a sequence of **function blocks** to be composed and applied to the input vector.
