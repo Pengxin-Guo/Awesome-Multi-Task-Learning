@@ -86,6 +86,10 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Notes: the proposed method consists of an **estimator** and a **selector**, the estimator can produce multiple different network models of different configurations in a hierarchical structure, the selector chooses a model dynamically from a pool of candidate models given an input instance.
 
+- [**SFG**] Bragman, F. J., Tanno, R., Ourselin, S., Alexander, D. C., & Cardoso, J. [Stochastic filter groups for multi-task cnns: Learning specialist and generalist convolution kernels](https://openaccess.thecvf.com/content_ICCV_2019/html/Bragman_Stochastic_Filter_Groups_for_Multi-Task_CNNs_Learning_Specialist_and_Generalist_ICCV_2019_paper.html "SFG"). **ICCV**, 2019.
+
+  Notes: the **SFGs** learns to **allocate kernels in each convolution layer into either ''specialist'' groups or a ''shared'' trunk**, which are specific to or shared across different tasks, respectively.
+
 - [**Routing Network**] Rosenbaum, C., Klinger, T., & Riemer, M. [Routing Networks: Adaptive Selection of Non-Linear Functions for Multi-Task Learning](https://openreview.net/forum?id=ry8dvM-R- "Routing Network"). **ICLR**, 2018.
 
   Notes: **Routing** is the process of iteratively applying the **router** to select a sequence of **function blocks** to be composed and applied to the input vector.
