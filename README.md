@@ -32,6 +32,10 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Q: **Can we replace the $K$ task-specific attention networks with one task-specific attention network to further reduce the parameters?** This task-specific attention network can receive the task embeddings and the shared features as input.
 
+- [**MRAN**] Zhao, J., Du, B., Sun, L., Zhuang, F., Lv, W., & Xiong, H. [Multiple relational attention network for multi-task learning](https://dl.acm.org/doi/abs/10.1145/3292500.3330861?casa_token=OWmM19esGkgAAAAA:VcB0sDcRzF_7Sqn6C-F0zAIfgmLUvA-UISFEG3jrdpgcqLT1tTIaJQwKH83jzTGo7tWQcPpfxGgo "MRAN"). **KDD**, 2019.
+
+  Notes: consists of **three attention-based relationship learning modules**: **task-task relationship**, **feature-feature interaction**, and **task-feature dependence**.
+
 - [**PS-MCNN**] Cao, J., Li, Y., & Zhang, Z. [Partially shared multi-task convolutional neural network with local constraint for face attribute learning](https://openaccess.thecvf.com/content_cvpr_2018/html/Cao_Partially_Shared_Multi-Task_CVPR_2018_paper.html "PS-MCNN"). **CVPR**, 2018.
 
   Notes: the key idea of **PS-MCNN** lies in **sharing a common network for all the groups to learn shared features**, and **constructing group specific network for each group** from the beginning of the architecture to its end to **learn task specific features**; four Task Specific Networks (**TSNets**) and one Shared Network (**SNet**) are connected by Partially Shared (**PS**) structures to learn better **shared** and **task specific** representations.
