@@ -159,6 +159,12 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Q: What if the randomly generated masks is not suitable? **Is it better to make the masks learnable parameters?**
 
+- [**RCMTL**] Yao, Y., Cao, J., & Chen, H. [Robust task grouping with representative tasks for clustered multi-task learning](https://dl.acm.org/doi/abs/10.1145/3292500.3330904?casa_token=sAqWEl99yEIAAAAA:vts_RUH_RXR-sFrf_4BRV7zfm5RKrb4mcE1w6V9Rz_8a0RK9VffbHTTqWW7uY39AzhktdbBRyXF9_VM "RCMTL"). **KDD**, 2019.
+
+  Notes: select a subset of tasks that can represent the whole tasks, all tasks can be clustered into different groups based on these **representative tasks**.
+
+  <font color="red">Very similar to [Flexible clustered multi-task learning by learning representative tasks](https://ieeexplore.ieee.org/abstract/document/7150415 "FCMTL"). **TPAMI**, 2016.</font>
+
 - [**AMTFL**, **Deep-AMTFL**]Lee, H. B., Yang, E., & Hwang, S. J. [Deep asymmetric multi-task feature learning](http://proceedings.mlr.press/v80/lee18d.html "AMTFL, Deep-AMTFL"). **ICML**, 2018.
 
   Notes: introduce an **asymmetric autoencoder** term that allows reliable predictors for the easy
