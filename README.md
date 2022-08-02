@@ -92,7 +92,7 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Q1: It has to perform $T$ times forward pass since each task has different paths, which is time-consuming.
 
-  Q2: Will it be effective to extend *AdaShare* for finding a fine-grained **channel sharing pattern**?
+  Q2: Will it be effective to extend *AdaShare* for finding a fine-grained **channel sharing pattern** across tasks?
 
 - [**DEN**] Ahn, C., Kim, E., & Oh, S. [Deep elastic networks with model selection for multi-task learning](https://openaccess.thecvf.com/content_ICCV_2019/html/Ahn_Deep_Elastic_Networks_With_Model_Selection_for_Multi-Task_Learning_ICCV_2019_paper.html "DEN"). **ICCV**, 2019.
 
