@@ -16,8 +16,6 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 - Hazimeh, H., Zhao, Z., Chowdhery, A., Sathiamoorthy, M., Chen, Y., Mazumder, R., ... & Chi, E. [Dselect-k: Differentiable selection in the mixture of experts with applications to multi-task learning](https://proceedings.neurips.cc/paper/2021/hash/f5ac21cd0ef1b88e9848571aeb53551a-Abstract.html "DSelect-k"). NeurIPS, 2021.
 
-- Sun, X., Panda, R., Feris, R., & Saenko, K. [Adashare: Learning what to share for efficient deep multi-task learning](https://proceedings.neurips.cc/paper/2020/hash/634841a6831464b64c072c8510c7f35c-Abstract.html "AdaShare"). NeurIPS, 2020.
-
 - Tang, H., Liu, J., Zhao, M., & Gong, X. [Progressive layered extraction (ple): A novel multi-task learning (mtl) model for personalized recommendations](https://dl.acm.org/doi/abs/10.1145/3383313.3412236?casa_token=6f07DDkXg64AAAAA:D5Yqu4LDFiTrxgOxrFqxa9GyD23wd0aOkUy8ceRo_W-yAYs1qF5jw3iyhOxA7V9YTqFoxBB_j41l "PLE"). RecSys, 2020.
 
 - Shen, Z., Cui, C., Huang, J., Zong, J., Chen, M., & Yin, Y. (2020, October). Deep adaptive feature aggregation in multi-task convolutional neural networks. In *Proceedings of the 29th ACM International Conference on Information & Knowledge Management* (pp. 2213-2216).
@@ -87,6 +85,14 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
   Notes: propose a **tree-structured network design space** that can **automatically learn how to branch a network**.
 
   Q: **How to decide the number of child nodes?**
+
+- [**AdaShare**] Sun, X., Panda, R., Feris, R., & Saenko, K. [Adashare: Learning what to share for efficient deep multi-task learning](https://proceedings.neurips.cc/paper/2020/hash/634841a6831464b64c072c8510c7f35c-Abstract.html "AdaShare"). **NeurIPS**, 2020.
+
+  Notes: learn the sharing pattern through a task-specific policy that **selectively chooses which layers to execute for a given task** in the multi-task network.
+
+  Q1: It has to perform $T$ times forward pass since each task has different paths, which is time-consuming.
+
+  Q2: Will it be effective to extend *AdaShare* for finding a fine-grained **channel sharing pattern**?
 
 - [**DEN**] Ahn, C., Kim, E., & Oh, S. [Deep elastic networks with model selection for multi-task learning](https://openaccess.thecvf.com/content_ICCV_2019/html/Ahn_Deep_Elastic_Networks_With_Model_Selection_for_Multi-Task_Learning_ICCV_2019_paper.html "DEN"). **ICCV**, 2019.
 
