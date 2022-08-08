@@ -148,7 +148,13 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 #### Gradient Balancing
 
-- Yu, T., Kumar, S., Gupta, A., Levine, S., Hausman, K., & Finn, C. [Gradient surgery for multi-task learning](https://proceedings.neurips.cc/paper/2020/hash/3fe78a8acf5fda99de95303940a2420c-Abstract.html "PCGrad"). NeurIPS, 2020.
+- [**PCGrad**] Yu, T., Kumar, S., Gupta, A., Levine, S., Hausman, K., & Finn, C. [Gradient surgery for multi-task learning](https://proceedings.neurips.cc/paper/2020/hash/3fe78a8acf5fda99de95303940a2420c-Abstract.html "PCGrad"). **NeurIPS**, 2020.
+
+  Notes: projects a task’s gradient onto the normal plane of the gradient of any other task that has a **conflicting** gradient, $\mathbf{g}_{i}=\mathbf{g}_{i}-\frac{\mathbf{g}_{i} \cdot \mathbf{g}_{j}}{\left\|\mathbf{g}_{j}\right\|^{2}} \mathbf{g}_{j}$.
+
+  Q1: **Does the Theorem 2 in their paper means that PCGrad only works under such three conditions, what if the three conditions are not satisfied?**
+
+  Q2: **Is the *tragic triad* of multi-task learning a major factor in making optimization for multi-task learning challenging?** They seem do not answer this question in their experiments.
 
 - [**GradNorm**] Chen, Z., Badrinarayanan, V., Lee, C. Y., & Rabinovich, A. [Gradnorm: Gradient normalization for adaptive loss balancing in deep multitask networks](http://proceedings.mlr.press/v80/chen18a.html?ref=https://githubhelp.com "GradNorm"). **ICML**, 2018.
 
