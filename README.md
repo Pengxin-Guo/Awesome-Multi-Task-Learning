@@ -168,6 +168,12 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
   
   Q: **Does it necessary to make the gradient magnitudes of different tasks to a common scale?** or **Why?**
   
+- [**MGDA**] Sener, O., & Koltun, V. [Multi-task learning as multi-objective optimization](https://proceedings.neurips.cc/paper/2018/hash/432aca3a1e345e339f35a30c8f65edce-Abstract.html "MGDA"). **NeurIPS**, 2018.
+
+  Notes: cast multi-task learning as **multi-objective optimization**; provide **an upper bound** for the multiple-gradient descent algorithm (**MGDA**) optimization objective and show that it can be computed via **a single backward pass**.
+
+  Q: **Why the derivate of the representations can be computed in a single backward pass, while for the shared parameter needs $T$ times?**
+
 - [**Modulation**] Zhao, X., Li, H., Shen, X., Liang, X., & Wu, Y. [A modulation module for multi-task learning with applications in image retrieval](https://openaccess.thecvf.com/content_ECCV_2018/html/Xiangyun_Zhao_A_Modulation_Module_ECCV_2018_paper.html "Modulation"). **ECCV**, 2018.
 
   Notes: propose a general **modulation module**, which can be inserted into any convolutional neural network architecture, to encourage the **coupling and feature sharing of relevant tasks** while **disentangling the learning of irrelevant tasks** with minor parameters addition; equipped with this module, **gradient directions from different tasks can be enforced to be consistent for those shared parameters**.
