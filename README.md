@@ -156,6 +156,12 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Q2: **Is the *tragic triad* of multi-task learning a major factor in making optimization for multi-task learning challenging?** They seem do not answer this question in their experiments.
 
+- [**GradDrop**] Chen, Z., Ngiam, J., Huang, Y., Luong, T., Kretzschmar, H., Chai, Y., & Anguelov, D. [Just pick a sign: Optimizing deep multitask models with gradient sign dropout](https://proceedings.neurips.cc/paper/2020/hash/16002f7a455a94aa4e91cc34ebdb9f2d-Abstract.html "GradDrop"). **NeurIPS**, 2020.
+
+  Notes: select one sign (positive or negative) based on the distribution of gradient values, and **mask out** all gradient values of the opposite sign.
+
+  Q: About the formulation of Gradient Positive Sign Purity, **what if the gradients not in an order of magnitude?** The largest gradient may dominate the sign.
+
 - [**GradNorm**] Chen, Z., Badrinarayanan, V., Lee, C. Y., & Rabinovich, A. [Gradnorm: Gradient normalization for adaptive loss balancing in deep multitask networks](http://proceedings.mlr.press/v80/chen18a.html?ref=https://githubhelp.com "GradNorm"). **ICML**, 2018.
 
   Notes: automatically balances training in deep multitask models by **dynamically tuning gradient magnitudes**; establish a **common scale** for **gradient magnitudes**, and **balance training rates** of different tasks.
