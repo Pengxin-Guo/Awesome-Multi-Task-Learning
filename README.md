@@ -20,6 +20,10 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 - Shen, Z., Cui, C., Huang, J., Zong, J., Chen, M., & Yin, Y. (2020, October). Deep adaptive feature aggregation in multi-task convolutional neural networks. In *Proceedings of the 29th ACM International Conference on Information & Knowledge Management* (pp. 2213-2216).
 
+- [**PSD**] Zhou, L., Cui, Z., Xu, C., Zhang, Z., Wang, C., Zhang, T., & Yang, J. [Pattern-structure diffusion for multi-task learning](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhou_Pattern-Structure_Diffusion_for_Multi-Task_Learning_CVPR_2020_paper.html "PSD"). **CVPR**, 2020.
+
+  Notes: the **motivation** is **pattern structures high-frequently recur within intra-task also across tasks**; mine and propagate **task-specific and task-across pattern structures** in the task-level space for multiple tasks in two different ways, i.e., **intra-task and inter-task PSD**.
+
 - [**NDDR-CNN**, **NDDR-CNN-Shortcut**] Gao, Y., Ma, J., Zhao, M., Liu, W., & Yuille, A. L. [Nddr-cnn: Layerwise feature fusing in multi-task cnns by neural discriminative dimensionality reduction](https://openaccess.thecvf.com/content_CVPR_2019/html/Gao_NDDR-CNN_Layerwise_Feature_Fusing_in_Multi-Task_CNNs_by_Neural_Discriminative_CVPR_2019_paper.html "NDDR-CNN, NDDR-CNN-Shortcut"). **CVPR**, 2019.
 
   Motivation: **Why would we assume that the low- and mid-level features for different tasks in MTL should be identical, especially when the tasks are loosely related? If not, is it optimal to share the features until the last convolutional layer?**
