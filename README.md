@@ -32,6 +32,12 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Q: **Can we replace the $K$ task-specific attention networks with one task-specific attention network to further reduce the parameters?** This task-specific attention network can receive the task embeddings and the shared features as input.
 
+- [**PAP**] Zhang, Z., Cui, Z., Xu, C., Yan, Y., Sebe, N., & Yang, J. [Pattern-affinitive propagation across depth, surface normal and semantic segmentation](https://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Pattern-Affinitive_Propagation_Across_Depth_Surface_Normal_and_Semantic_Segmentation_CVPR_2019_paper.html "PAP"). **CVPR**, 2019.
+
+  Notes: the **motivation** behind it comes from the statistic observation that **pattern-affinitive pairs recur much frequently across different tasks as well as within a task**; conduct two types of propagations, **cross-task propagation** and **task-specific propagation**, to **adaptively diffuse those similar patterns**.
+
+  Q: **What is the finally learned $\alpha$?** Since it can represents the task relationship to some extent.
+
 - [**MRAN**] Zhao, J., Du, B., Sun, L., Zhuang, F., Lv, W., & Xiong, H. [Multiple relational attention network for multi-task learning](https://dl.acm.org/doi/abs/10.1145/3292500.3330861?casa_token=OWmM19esGkgAAAAA:VcB0sDcRzF_7Sqn6C-F0zAIfgmLUvA-UISFEG3jrdpgcqLT1tTIaJQwKH83jzTGo7tWQcPpfxGgo "MRAN"). **KDD**, 2019.
 
   Notes: consists of **three attention-based relationship learning modules**: **task-task relationship**, **feature-feature interaction**, and **task-feature dependence**.
