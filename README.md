@@ -24,6 +24,10 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Notes: the **motivation** is **pattern structures high-frequently recur within intra-task also across tasks**; mine and propagate **task-specific and task-across pattern structures** in the task-level space for multiple tasks in two different ways, i.e., **intra-task and inter-task PSD**.
 
+- [**RCM**] Kanakis, M., Bruggemann, D., Saha, S., Georgoulis, S., Obukhov, A., & Gool, L. V. [Reparameterizing convolutions for incremental multi-task learning without task interference](https://link.springer.com/chapter/10.1007/978-3-030-58565-5_41 "RCM"). **ECCV**, 2020.
+
+  Notes: decompose each convolution into **a shared part** that acts as a filter bank encoding common knowledge, and **task-specific modulators** that adapt this common knowledge uniquely for each task; **the shared part is not trainable** to explicitly avoid negative transfer.
+
 - [**NDDR-CNN**, **NDDR-CNN-Shortcut**] Gao, Y., Ma, J., Zhao, M., Liu, W., & Yuille, A. L. [Nddr-cnn: Layerwise feature fusing in multi-task cnns by neural discriminative dimensionality reduction](https://openaccess.thecvf.com/content_CVPR_2019/html/Gao_NDDR-CNN_Layerwise_Feature_Fusing_in_Multi-Task_CNNs_by_Neural_Discriminative_CVPR_2019_paper.html "NDDR-CNN, NDDR-CNN-Shortcut"). **CVPR**, 2019.
 
   Motivation: **Why would we assume that the low- and mid-level features for different tasks in MTL should be identical, especially when the tasks are loosely related? If not, is it optimal to share the features until the last convolutional layer?**
