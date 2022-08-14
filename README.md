@@ -58,6 +58,10 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Notes: the key idea of **PS-MCNN** lies in **sharing a common network for all the groups to learn shared features**, and **constructing group specific network for each group** from the beginning of the architecture to its end to **learn task specific features**; four Task Specific Networks (**TSNets**) and one Shared Network (**SNet**) are connected by Partially Shared (**PS**) structures to learn better **shared** and **task specific** representations.
 
+- [**PAD-Net**] Xu, D., Ouyang, W., Wang, X., & Sebe, N. [Pad-net: Multi-tasks guided prediction-and-distillation network for simultaneous depth estimation and scene parsing](https://openaccess.thecvf.com/content_cvpr_2018/html/Xu_PAD-Net_Multi-Tasks_Guided_CVPR_2018_paper.html "PAD-Net"). **CVPR**, 2018.
+
+  Notes: produces a set of **intermediate auxiliary tasks** providing rich multi-modal data for learning the target tasks; design and investigate three different **multi-modal distillation** modules for deep multi-modal data fusion.
+
 - [**MMoE**] Ma, J., Zhao, Z., Yi, X., Chen, J., Hong, L., & Chi, E. H. [Modeling task relationships in multi-task learning with multi-gate mixture-of-experts](https://dl.acm.org/doi/abs/10.1145/3219819.3220007 "MMoE"). **KDD**, 2018.
 
   Notes: adapt the Mixture-of-Experts (MoE) structure to multi-task learning by sharing the expert submodels across all tasks, while also having a **gating network** trained to optimize each task; the gating networks take the input features and **output softmax gates assembling the experts with different weights**, allowing different tasks to utilize experts differently.
