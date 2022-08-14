@@ -28,6 +28,10 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Notes: decompose each convolution into **a shared part** that acts as a filter bank encoding common knowledge, and **task-specific modulators** that adapt this common knowledge uniquely for each task; **the shared part is not trainable** to explicitly avoid negative transfer.
 
+- [**MTI-Net**] Vandenhende, S., Georgoulis, S., & Gool, L. V. [Mti-net: Multi-scale task interaction networks for multi-task learning](https://link.springer.com/chapter/10.1007/978-3-030-58548-8_31 "MTI-Net"). **ECCV**, 2020.
+
+  Notes: they show that **two tasks with high affinity at a certain scale are not guaranteed to retain this behaviour at other scales**, and vice versa.
+
 - [**NDDR-CNN**, **NDDR-CNN-Shortcut**] Gao, Y., Ma, J., Zhao, M., Liu, W., & Yuille, A. L. [Nddr-cnn: Layerwise feature fusing in multi-task cnns by neural discriminative dimensionality reduction](https://openaccess.thecvf.com/content_CVPR_2019/html/Gao_NDDR-CNN_Layerwise_Feature_Fusing_in_Multi-Task_CNNs_by_Neural_Discriminative_CVPR_2019_paper.html "NDDR-CNN, NDDR-CNN-Shortcut"). **CVPR**, 2019.
 
   Motivation: **Why would we assume that the low- and mid-level features for different tasks in MTL should be identical, especially when the tasks are loosely related? If not, is it optimal to share the features until the last convolutional layer?**
