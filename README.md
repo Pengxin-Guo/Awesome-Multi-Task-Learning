@@ -32,6 +32,16 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Notes: they show that **two tasks with high affinity at a certain scale are not guaranteed to retain this behaviour at other scales**, and vice versa.
 
+- [**AM-CNN**] Lyu, K., Li, Y., & Zhang, Z. [Attention-aware multi-task convolutional neural networks](https://ieeexplore.ieee.org/abstract/document/8859643 "AM-CNN"). **TIP**, 2020.
+
+  Notes: **automatically learns appropriate sharing** through end-to-end training; the **attention mechanism** (SE block) is introduced into their architecture to **suppress redundant contents contained in the representations**; the **shortcut connection** is adopted to **preserve useful information**.
+
+  Q1: **Which part of their model shows "automatically learns appropriate sharing"?** Is the shared Bottleneck Layer in the AM-CNN module?
+
+  Q2: **Can this method combines with spatial attention to further improve the performance?**
+
+  Q3: They use the one-task networks trained on the corresponding tasks to initialize the networks. This seems to require a lot of training time.
+
 - [**NDDR-CNN**, **NDDR-CNN-Shortcut**] Gao, Y., Ma, J., Zhao, M., Liu, W., & Yuille, A. L. [Nddr-cnn: Layerwise feature fusing in multi-task cnns by neural discriminative dimensionality reduction](https://openaccess.thecvf.com/content_CVPR_2019/html/Gao_NDDR-CNN_Layerwise_Feature_Fusing_in_Multi-Task_CNNs_by_Neural_Discriminative_CVPR_2019_paper.html "NDDR-CNN, NDDR-CNN-Shortcut"). **CVPR**, 2019.
 
   Motivation: **Why would we assume that the low- and mid-level features for different tasks in MTL should be identical, especially when the tasks are loosely related? If not, is it optimal to share the features until the last convolutional layer?**
