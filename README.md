@@ -10,11 +10,13 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 #### Manually Designed Architectures
 
-- Cui, C., Shen, Z., Huang, J., Chen, M., Xu, M., Wang, M., & Yin, Y. (2021). Adaptive feature aggregation in deep multi-task convolutional neural networks. *IEEE Transactions on Circuits and Systems for Video Technology*, *32*(4), 2133-2144.
-
 - Javaloy, A., & Valera, I. [RotoGrad: Gradient Homogenization in Multitask Learning](https://openreview.net/forum?id=T8wHz4rnuGL "RotoGrad"). ICLR, 2021.
 
 - Hazimeh, H., Zhao, Z., Chowdhery, A., Sathiamoorthy, M., Chen, Y., Mazumder, R., ... & Chi, E. [Dselect-k: Differentiable selection in the mixture of experts with applications to multi-task learning](https://proceedings.neurips.cc/paper/2021/hash/f5ac21cd0ef1b88e9848571aeb53551a-Abstract.html "DSelect-k"). NeurIPS, 2021.
+
+- [**AFANet**] Cui, C., Shen, Z., Huang, J., Chen, M., Xu, M., Wang, M., & Yin, Y. [Adaptive feature aggregation in deep multi-task convolutional neural networks](https://ieeexplore.ieee.org/abstract/document/9449881 "AFANet"). **IEEE Transactions on Circuits and Systems for Video Technology**, 2021.
+
+  An extension of [Deep adaptive feature aggregation in multi-task convolutional neural networks](https://dl.acm.org/doi/abs/10.1145/3340531.3412132?casa_token=52U6Ty7umlIAAAAA:5tnEZP53uqx8uO8w_PsFN3NTY6y0TIFbVzMLJ8mWObw9L6rOGxc4KRLps2jjaQBA4mYtD8zzdhye "AFA"). **CIKM**, 2020.
 
 - [**PSD**] Zhou, L., Cui, Z., Xu, C., Zhang, Z., Wang, C., Zhang, T., & Yang, J. [Pattern-structure diffusion for multi-task learning](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhou_Pattern-Structure_Diffusion_for_Multi-Task_Learning_CVPR_2020_paper.html "PSD"). **CVPR**, 2020.
 
