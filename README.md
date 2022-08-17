@@ -240,6 +240,10 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Q: "Approximating higher-order affinity scores for each network consisting of three or more tasks" is **time-consuming** especially when the task number is large.
 
+- [**DSelect-k**] Hazimeh, H., Zhao, Z., Chowdhery, A., Sathiamoorthy, M., Chen, Y., Mazumder, R., ... & Chi, E. [Dselect-k: Differentiable selection in the mixture of experts with applications to multi-task learning](https://proceedings.neurips.cc/paper/2021/hash/f5ac21cd0ef1b88e9848571aeb53551a-Abstract.html "DSelect-k"). **NeurIPS**, 2021.
+
+  Notes: a continuously differentiable and sparse gate for MoE, based on a novel binary encoding formulation.
+
 - [**TRL**] Strezoski, G., Noord, N. V., & Worring, M. [Many task learning with task routing](https://openaccess.thecvf.com/content_ICCV_2019/html/Strezoski_Many_Task_Learning_With_Task_Routing_ICCV_2019_paper.html "TRL"). **ICCV**, 2019.
 
   Notes: introduce a **task-routing** mechanism allowing tasks to have separate in-model data flows; apply a **channel-wise task-specific binary mask** over the convolutional activations, **the masks are generated randomly and kept constant**.
