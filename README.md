@@ -232,6 +232,14 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 ## Others
 
+- [**TAG**] Fifty, C., Amid, E., Zhao, Z., Yu, T., Anil, R., & Finn, C. [Efficiently identifying task groupings for multi-task learning](https://proceedings.neurips.cc/paper/2021/hash/e77910ebb93b511588557806310f78f1-Abstract.html "TAG"). **NeurIPS**, 2021.
+
+  Notes: suggest a measure of **inter-task affinity** that can be used to systematically and efficiently determine **task groupings** for multi-task learning; measure inter-task affinity by training all tasks together in a single multi-task network and **quantifying the effect to which one task’s gradient update would affect another task’s loss**.
+
+  Finding: **the relationships among tasks change throughout training as measured by inter-task affinity** (this maybe because the different data in different training step); **how tasks should be trained together does not simply depend on the relationships among tasks, but also on detailed aspects of the model and training**.
+
+  Q: "Approximating higher-order affinity scores for each network consisting of three or more tasks" is **time-consuming** especially when the task number is large.
+
 - [**TRL**] Strezoski, G., Noord, N. V., & Worring, M. [Many task learning with task routing](https://openaccess.thecvf.com/content_ICCV_2019/html/Strezoski_Many_Task_Learning_With_Task_Routing_ICCV_2019_paper.html "TRL"). **ICCV**, 2019.
 
   Notes: introduce a **task-routing** mechanism allowing tasks to have separate in-model data flows; apply a **channel-wise task-specific binary mask** over the convolutional activations, **the masks are generated randomly and kept constant**.
