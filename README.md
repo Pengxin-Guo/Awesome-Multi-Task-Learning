@@ -193,6 +193,12 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 #### Gradient Balancing
 
+- [**CAGrad**] Liu, B., Liu, X., Jin, X., Stone, P., & Liu, Q. [Conflict-averse gradient descent for multi-task learning](https://proceedings.neurips.cc/paper/2021/hash/9d27fdf2477ffbff837d73ef7ae23db9-Abstract.html "CAGrad"). **NeurIPS**, 2021.
+
+  Notes: minimizes the average loss function, while **leveraging the worst local improvement of individual tasks to regularize the algorithm trajectory**.
+
+  Q: **Does the largest loss will dominate the update?**  Since the Eq.(2) is based on the absolute value of the loss.
+
 - [**PCGrad**] Yu, T., Kumar, S., Gupta, A., Levine, S., Hausman, K., & Finn, C. [Gradient surgery for multi-task learning](https://proceedings.neurips.cc/paper/2020/hash/3fe78a8acf5fda99de95303940a2420c-Abstract.html "PCGrad"). **NeurIPS**, 2020.
 
   Notes: projects a task’s gradient onto the normal plane of the gradient of any other task that has a **conflicting** gradient.
