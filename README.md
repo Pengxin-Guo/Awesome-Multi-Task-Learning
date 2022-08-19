@@ -199,6 +199,12 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Q: **Does the largest loss will dominate the update?**  Since the Eq.(2) is based on the absolute value of the loss.
 
+- [**IMTL, IMTL-G, IMTL-L**] Liu, L., Li, Y., Kuang, Z., Xue, J. H., Chen, Y., Yang, W., ... & Zhang, W. [Towards Impartial Multi-task Learning](https://openreview.net/forum?id=IMPnRXEWpvr "IMTL"). **ICLR**, 2021.
+
+  Notes: **IMTL-G(rad)**, learn the **scaling factors** such that **the aggregated gradient of task-shared parameters has equal projections onto the raw gradients of individual tasks**; **IMTL-L(oss)**, automatically **learn a loss weighting parameter for each task** so that **the weighted losses have comparable scales** and the effect of different loss scales from various tasks can be canceled-out.
+
+  Q: **What is the benefit of "the aggregated gradient of task-shared parameters has equal projections onto the raw gradients of individual tasks"?** or **Why to do this?**
+
 - [**PCGrad**] Yu, T., Kumar, S., Gupta, A., Levine, S., Hausman, K., & Finn, C. [Gradient surgery for multi-task learning](https://proceedings.neurips.cc/paper/2020/hash/3fe78a8acf5fda99de95303940a2420c-Abstract.html "PCGrad"). **NeurIPS**, 2020.
 
   Notes: projects a task’s gradient onto the normal plane of the gradient of any other task that has a **conflicting** gradient.
