@@ -18,6 +18,12 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Notes: consisting of a new **conditional attention mechanism** as well as a set of task-conditioned modules (**conditional alignment** and **conditional layer normalization**).
 
+- [**HyperGrid Transformer**] Tay, Y., Zhao, Z., Bahri, D., Metzler, D., & Juan, D. C. [HyperGrid Transformers: Towards A Single Model for Multiple Tasks](https://openreview.net/forum?id=hiq1rHO8pNT "HyperGrid Transformer"). **ICLR**, 2021.
+
+  Notes: leverages **Grid-wise Decomposable Hyper Projections** (HyperGrid), a hypernetwork-based projection layer for task conditioned weight generation.
+
+  Q: Does the task embedding is a learnable vector or a fixed vector?
+
 - [**AFANet**] Cui, C., Shen, Z., Huang, J., Chen, M., Xu, M., Wang, M., & Yin, Y. [Adaptive feature aggregation in deep multi-task convolutional neural networks](https://ieeexplore.ieee.org/abstract/document/9449881 "AFANet"). **IEEE Transactions on Circuits and Systems for Video Technology**, 2021.
 
   An extension of [Deep adaptive feature aggregation in multi-task convolutional neural networks](https://dl.acm.org/doi/abs/10.1145/3340531.3412132?casa_token=52U6Ty7umlIAAAAA:5tnEZP53uqx8uO8w_PsFN3NTY6y0TIFbVzMLJ8mWObw9L6rOGxc4KRLps2jjaQBA4mYtD8zzdhye "AFA"). **CIKM**, 2020.
