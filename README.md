@@ -203,7 +203,9 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Notes: **IMTL-G(rad)**, learn the **scaling factors** such that **the aggregated gradient of task-shared parameters has equal projections onto the raw gradients of individual tasks**; **IMTL-L(oss)**, automatically **learn a loss weighting parameter for each task** so that **the weighted losses have comparable scales** and the effect of different loss scales from various tasks can be canceled-out.
 
-  Q: **What is the benefit of "the aggregated gradient of task-shared parameters has equal projections onto the raw gradients of individual tasks"?** or **Why to do this?**
+  Q1: **What is the benefit of "the aggregated gradient of task-shared parameters has equal projections onto the raw gradients of individual tasks"?** or **Why to do this?**
+
+  Q2: **Can we use different learning rate for different tasks to achieve the same goal of IMTL-G** (treat all tasks equally so that they progress in the same speed and none is left behind)?
 
 - [**PCGrad**] Yu, T., Kumar, S., Gupta, A., Levine, S., Hausman, K., & Finn, C. [Gradient surgery for multi-task learning](https://proceedings.neurips.cc/paper/2020/hash/3fe78a8acf5fda99de95303940a2420c-Abstract.html "PCGrad"). **NeurIPS**, 2020.
 
