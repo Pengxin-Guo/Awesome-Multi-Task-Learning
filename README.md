@@ -217,6 +217,12 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Q2: **Can we use different learning rate for different tasks to achieve the same goal of IMTL-G** (treat all tasks equally so that they progress in the same speed and none is left behind)?
 
+- [**GradVac**] Wang, Z., Tsvetkov, Y., Firat, O., & Cao, Y. [Gradient vaccine: Investigating and improving multi-task optimization in massively multilingual models](https://openreview.net/forum?id=F1vEjWK-lH_ "GradVac"). **ICLR**, 2021.
+
+  Notes: relax the assumption of **PCGrad** (any two tasks must have the same gradient similarity objective of zero), set **adaptive gradient similarity objectives**; operate on both **negative and positive gradient similarity**.
+
+  Q: **Is it necessary to operate on the positive gradient similarity?**
+
 - [**PCGrad**] Yu, T., Kumar, S., Gupta, A., Levine, S., Hausman, K., & Finn, C. [Gradient surgery for multi-task learning](https://proceedings.neurips.cc/paper/2020/hash/3fe78a8acf5fda99de95303940a2420c-Abstract.html "PCGrad"). **NeurIPS**, 2020.
 
   Notes: projects a task’s gradient onto the normal plane of the gradient of any other task that has a **conflicting** gradient.
