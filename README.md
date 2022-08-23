@@ -179,6 +179,12 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 #### Loss Balancing
 
+- [**LSB**] Lee, J. H., Lee, C., & Kim, C. S. [Learning Multiple Pixelwise Tasks Based on Loss Scale Balancing](https://openaccess.thecvf.com/content/ICCV2021/html/Lee_Learning_Multiple_Pixelwise_Tasks_Based_on_Loss_Scale_Balancing_ICCV_2021_paper.html "LSB"). **ICCV**, 2021.
+
+  Notes: dynamically adjusts the linear weights to learn all tasks effectively by **balancing the loss scale** (**the product of the loss value and its weight**) periodically.
+  
+  Q: Does 3rd period is useful? Since 2nd period  has achieved that all tasks are learned at a similar pace, which means the difficulty of all task are equal according to the measurement of Eq.(9).
+  
 - [**MultiNet++**, **GLS**] Chennupati, S., Sistu, G., Yogamani, S., & A Rawashdeh, S. [Multinet++: Multi-stream feature aggregation and geometric loss strategy for multi-task learning](https://openaccess.thecvf.com/content_CVPRW_2019/html/WAD/Chennupati_MultiNet_Multi-Stream_Feature_Aggregation_and_Geometric_Loss_Strategy_for_Multi-Task_CVPRW_2019_paper.html "MultiNet++, GLS"). **CVPR workshop**, 2019.
 
   Notes: they propose a **multi-stream multi-task network** to take advantage of using feature representations from **preceding frames in a video sequence** for joint learning of segmentation, depth, and motion; they express the total loss of a multi-task learning problem as **geometric mean** of individual task losses, they refer to this as Geometric Loss Strategy (**GLS**).
