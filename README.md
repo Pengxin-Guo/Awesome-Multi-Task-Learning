@@ -1,6 +1,6 @@
 # Awesome-Multi-Task-Learning
 
-Paper List for Multi-Task Learning. (Since 2016)
+Paper List for Multi-Task Learning (focus on architectures and optimization for MTL). (Since 2016)
 
 Conference: ICML, NeurIPS, ICLR, CVPR, ICCV, ECCV, KDD, UAI, ECML PKDD, etc.
 
