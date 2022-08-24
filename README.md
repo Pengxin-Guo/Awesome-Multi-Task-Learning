@@ -143,7 +143,7 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Notes: learn the sharing pattern through a task-specific policy that **selectively chooses which layers to execute for a given task** in the multi-task network.
 
-  Q1: It has to perform $T$ times forward pass since each task has different paths, which is time-consuming.
+  Q1: It has to perform ![](http://latex.codecogs.com/svg.latex?T) times forward pass since each task has different paths, which is time-consuming.
 
   Q2: Will it be effective to extend *AdaShare* for finding a fine-grained **channel sharing pattern** across tasks?
 
