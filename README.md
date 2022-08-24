@@ -261,7 +261,7 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Notes: cast multi-task learning as **multi-objective optimization**; provide **an upper bound** for the multiple-gradient descent algorithm (**MGDA**) optimization objective and show that it can be computed via **a single backward pass**.
 
-  Q: **Why the derivate of the representations can be computed in a single backward pass, while for the shared parameter needs $T$ times?**
+  Q: **Why the derivate of the representations can be computed in a single backward pass, while for the shared parameter needs ![](http://latex.codecogs.com/svg.latex?T) times?**
 
 - [**Modulation**] Zhao, X., Li, H., Shen, X., Liang, X., & Wu, Y. [A modulation module for multi-task learning with applications in image retrieval](https://openaccess.thecvf.com/content_ECCV_2018/html/Xiangyun_Zhao_A_Modulation_Module_ECCV_2018_paper.html "Modulation"). **ECCV**, 2018.
 
