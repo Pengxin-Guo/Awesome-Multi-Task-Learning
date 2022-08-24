@@ -79,7 +79,7 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Notes: the **motivation** behind it comes from the statistic observation that **pattern-affinitive pairs recur much frequently across different tasks as well as within a task**; conduct two types of propagations, **cross-task propagation** and **task-specific propagation**, to **adaptively diffuse those similar patterns**.
 
-  Q: **What is the finally learned** $\bm{\alpha}$? Since it can represents the task relationship to some extent.
+  Q: **What is the finally learned** $\alpha$? Since it can represents the task relationship to some extent.
 
 - [**ASTMT**] Maninis, K. K., Radosavovic, I., & Kokkinos, I. [Attentive single-tasking of multiple tasks](https://openaccess.thecvf.com/content_CVPR_2019/html/Maninis_Attentive_Single-Tasking_of_Multiple_Tasks_CVPR_2019_paper.html "ASTMT"). **CVPR**, 2019.
 
