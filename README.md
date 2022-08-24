@@ -26,7 +26,7 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 - [**ATRC**] Brüggemann, D., Kanakis, M., Obukhov, A., Georgoulis, S., & Van Gool, L. [Exploring relational context for multi-task dense prediction](https://openaccess.thecvf.com/content/ICCV2021/html/Bruggemann_Exploring_Relational_Context_for_Multi-Task_Dense_Prediction_ICCV_2021_paper.html "ATRC"). **ICCV**, 2021.
 
-  Notes: samples the pool of all available contexts (i.e., *global*, *local*, *T-label*, *S-label*, *none*) for each task pair using **differentiable  NAS techniques**.
+  Notes: **different source-target task pairs benefit from different context types**; in order to **automate the selection process**, they sample the pool of all available contexts (i.e., *global*, *local*, *T-label*, *S-label*, *none*) for each task pair using **differentiable  NAS techniques**.
 
 - [**AFANet**] Cui, C., Shen, Z., Huang, J., Chen, M., Xu, M., Wang, M., & Yin, Y. [Adaptive feature aggregation in deep multi-task convolutional neural networks](https://ieeexplore.ieee.org/abstract/document/9449881 "AFANet"). **IEEE Transactions on Circuits and Systems for Video Technology**, 2021.
 
