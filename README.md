@@ -6,7 +6,18 @@ Conference: ICML, NeurIPS, ICLR, CVPR, ICCV, ECCV, KDD, UAI, ECML PKDD, etc.
 
 Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
-## Architectures for Multi-Task Learning
+Contents:
+
+- [Architectures for Multi-Task Learning] (# arch)
+  - Manually Designed Architectures
+  - Learning Architectures
+- Optimization for Multi-Task Learning
+  - Optimization Techniques
+  - Loss Balancing
+  - Gradient Balancing
+- Others
+
+## ### Architectures for Multi-Task Learning
 
 #### Manually Designed Architectures
 
