@@ -345,4 +345,4 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 ------
 
-Please create an issue if you find we missed some papers.
+Please create an issue or contact 12032913@main.sustech.edu.cn if you find we missed some papers.
