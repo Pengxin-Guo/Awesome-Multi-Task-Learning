@@ -81,6 +81,10 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
   Q: **What is the finally learned $\alpha$?** Since it can represents the task relationship to some extent.
 
+- [**ASTMT**] Maninis, K. K., Radosavovic, I., & Kokkinos, I. [Attentive single-tasking of multiple tasks](https://openaccess.thecvf.com/content_CVPR_2019/html/Maninis_Attentive_Single-Tasking_of_Multiple_Tasks_CVPR_2019_paper.html "ASTMT"). **CVPR**, 2019.
+
+  Notes: a network is trained on multiple tasks, but performs one task at a time; use **data-dependent modulation signals** (task-specific SE block) that enhance or suppress neuronal activity in a task-specific manner; use **task-specific Residual Adapter blocks** that latch on to a larger architecture in order to extract task-specific information which is fused with the representations extracted by a generic backbone; reduce task interference by **forcing the task gradients to be statistically indistinguishable through adversarial training**, ensuring that the common backbone architecture serving all tasks is not dominated by any of the task-specific gradients.
+
 - [**MRAN**] Zhao, J., Du, B., Sun, L., Zhuang, F., Lv, W., & Xiong, H. [Multiple relational attention network for multi-task learning](https://dl.acm.org/doi/abs/10.1145/3292500.3330861?casa_token=OWmM19esGkgAAAAA:VcB0sDcRzF_7Sqn6C-F0zAIfgmLUvA-UISFEG3jrdpgcqLT1tTIaJQwKH83jzTGo7tWQcPpfxGgo "MRAN"). **KDD**, 2019.
 
   Notes: consists of **three attention-based relationship learning modules**: **task-task relationship**, **feature-feature interaction**, and **task-feature dependence**.
