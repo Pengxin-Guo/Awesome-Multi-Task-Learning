@@ -8,7 +8,7 @@ Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
 
 Contents:
 
-- [Architectures for Multi-Task Learning](#arch)
+- Architectures for Multi-Task Learning
   - Manually Designed Architectures
   - Learning Architectures
 - Optimization for Multi-Task Learning
@@ -16,10 +16,6 @@ Contents:
   - Loss Balancing
   - Gradient Balancing
 - Others
-
-```html
- <a name="arch"></a>
-```
 
 ## Architectures for Multi-Task Learning
 
