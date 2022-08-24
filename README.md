@@ -17,7 +17,11 @@ Contents:
   - Gradient Balancing
 - Others
 
-## Architectures for Multi-Task Learning ### arch
+```html
+ <a name="arch"></a>
+```
+
+## Architectures for Multi-Task Learning
 
 #### Manually Designed Architectures
 
