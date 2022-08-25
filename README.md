@@ -303,6 +303,11 @@ Contents:
 
   Notes: a continuously differentiable and sparse gate for MoE, based on a novel binary encoding formulation.
 
+- [**GTTN**] Zhang, Y., Zhang, Y., & Wang, W. [Multi-task learning via generalized tensor trace norm](https://dl.acm.org/doi/pdf/10.1145/3447548.3467329?casa_token=nH8nZoAxxJsAAAAA:I7BjwUUmiv5uW8hc7r9QZ1ydomGtmFfVh8-saZm9Wc_Ci70qBUZqB54pps3kUJF9EGW1nCkoaHZ3 "GTTN"). **KDD**, 2021.
+
+  Notes: exploits all possible tensor flattenings and it is **defined as the convex sum of matrix trace
+  norms of all possible tensor flattenings**.
+
 - [**TRL**] Strezoski, G., Noord, N. V., & Worring, M. [Many task learning with task routing](https://openaccess.thecvf.com/content_ICCV_2019/html/Strezoski_Many_Task_Learning_With_Task_Routing_ICCV_2019_paper.html "TRL"). **ICCV**, 2019.
 
   Notes: introduce a **task-routing** mechanism allowing tasks to have separate in-model data flows; apply a **channel-wise task-specific binary mask** over the convolutional activations, **the masks are generated randomly and kept constant**.
