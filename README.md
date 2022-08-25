@@ -45,6 +45,10 @@ Contents:
 
   Notes: **share all parameters among all tasks** and do not require any task-specific modules (parameters); multiple tasks are performed by switching between them, performing one task at a time.
 
+- [**HGNN**] Guo, P., Deng, C., Xu, L., Huang, X., & Zhang, Y. [Deep multi-task augmented feature learning via hierarchical graph neural network](https://link.springer.com/chapter/10.1007/978-3-030-86486-6_33 "HGNN"). **ECML PKDD**, 2021.
+
+  Notes: HGNN consists of **two-level graph neural networks**; in the low level, an **intra-task GNN** is responsible of learning a powerful representation for each data point in a task by aggregating its neighbors. Based on the learned representation, a **task embedding** can be generated for each task in a similar way to **max pooling**; in the second level, an **inter-task GNN** updates task embeddings of all the tasks based on the **attention mechanism** to model task relations; the task embedding of one task is used to augment the feature representation of data points in this task.
+
 - [**AFANet**] Cui, C., Shen, Z., Huang, J., Chen, M., Xu, M., Wang, M., & Yin, Y. [Adaptive feature aggregation in deep multi-task convolutional neural networks](https://ieeexplore.ieee.org/abstract/document/9449881 "AFANet"). **IEEE Transactions on Circuits and Systems for Video Technology**, 2021.
 
   An extension of [Deep adaptive feature aggregation in multi-task convolutional neural networks](https://dl.acm.org/doi/abs/10.1145/3340531.3412132?casa_token=52U6Ty7umlIAAAAA:5tnEZP53uqx8uO8w_PsFN3NTY6y0TIFbVzMLJ8mWObw9L6rOGxc4KRLps2jjaQBA4mYtD8zzdhye "AFA"). **CIKM**, 2020.
