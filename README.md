@@ -39,6 +39,10 @@ Contents:
 
   Notes: **different source-target task pairs benefit from different context types**; in order to **automate the selection process**, they sample the pool of all available contexts (i.e., *global*, *local*, *T-label*, *S-label*, *none*) for each task pair using **differentiable  NAS techniques**.
 
+- [**TSNs**] Sun, G., Probst, T., Paudel, D. P., Popović, N., Kanakis, M., Patel, J., ... & Van Gool, L. [Task Switching Network for Multi-task Learning](https://openaccess.thecvf.com/content/ICCV2021/html/Sun_Task_Switching_Network_for_Multi-Task_Learning_ICCV_2021_paper.html "TSNs"). **ICCV**, 2021.
+
+  Notes: **share all parameters among all tasks** and do not require any task-specific modules (parameters); multiple tasks are performed by switching between them, performing one task at a time.
+
 - [**AFANet**] Cui, C., Shen, Z., Huang, J., Chen, M., Xu, M., Wang, M., & Yin, Y. [Adaptive feature aggregation in deep multi-task convolutional neural networks](https://ieeexplore.ieee.org/abstract/document/9449881 "AFANet"). **IEEE Transactions on Circuits and Systems for Video Technology**, 2021.
 
   An extension of [Deep adaptive feature aggregation in multi-task convolutional neural networks](https://dl.acm.org/doi/abs/10.1145/3340531.3412132?casa_token=52U6Ty7umlIAAAAA:5tnEZP53uqx8uO8w_PsFN3NTY6y0TIFbVzMLJ8mWObw9L6rOGxc4KRLps2jjaQBA4mYtD8zzdhye "AFA"). **CIKM**, 2020.
@@ -139,8 +143,6 @@ Contents:
   Notes: carry out the task of **saliency detection** in conjunction with the task of **object class segmentation**, which **share a convolution part** with 15 layers; use two networks performing the two tasks by sharing features, which forms a **tree structured network architecture**.
 
 #### Learning Architectures
-
-- Sun, G., Probst, T., Paudel, D. P., Popović, N., Kanakis, M., Patel, J., ... & Van Gool, L. [Task Switching Network for Multi-task Learning](https://openaccess.thecvf.com/content/ICCV2021/html/Sun_Task_Switching_Network_for_Multi-Task_Learning_ICCV_2021_paper.html "TSNs"). ICCV, 2021.
 
 - Pascal, L., Michiardi, P., Bost, X., Huet, B., & Zuluaga, M. A. [Maximum roaming multi-task learning](https://ojs.aaai.org/index.php/AAAI/article/view/17125 "MR"). AAAI, 2021.
 
