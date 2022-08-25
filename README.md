@@ -33,6 +33,10 @@ Contents:
 
   Q: Does the task embedding is a learnable vector or a fixed vector?
 
+- [**CTN**] Popovic, N., Paudel, D. P., Probst, T., Sun, G., & Van Gool, L. [Compositetasking: Understanding images by spatial composition of tasks](https://openaccess.thecvf.com/content/CVPR2021/html/Popovic_CompositeTasking_Understanding_Images_by_Spatial_Composition_of_Tasks_CVPR_2021_paper.html "CTN"). **CVPR**, 2021.
+
+  Notes: design **a convolutional neural network that performs multiple, pixelwise tasks**; feed every image along with a composition of spatially distributed multiple task requests to execute pixel-specific tasks; the proposed method for CompositeTasking learns by **task-specific batch normalization**.
+
 - [**ATRC**] Brüggemann, D., Kanakis, M., Obukhov, A., Georgoulis, S., & Van Gool, L. [Exploring relational context for multi-task dense prediction](https://openaccess.thecvf.com/content/ICCV2021/html/Bruggemann_Exploring_Relational_Context_for_Multi-Task_Dense_Prediction_ICCV_2021_paper.html "ATRC"). **ICCV**, 2021.
 
   Notes: **different source-target task pairs benefit from different context types**; in order to **automate the selection process**, they sample the pool of all available contexts (i.e., *global*, *local*, *T-label*, *S-label*, *none*) for each task pair using **differentiable  NAS techniques**.
