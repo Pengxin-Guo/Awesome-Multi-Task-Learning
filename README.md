@@ -234,6 +234,10 @@ Contents:
 
 #### Gradient Balancing
 
+- [**Nash-MTL**] Navon, A., Shamsian, A., Achituve, I., Maron, H., Kawaguchi, K., Chechik, G., & Fetaya, E. [Multi-task learning as a bargaining game](https://proceedings.mlr.press/v162/navon22a.html "Nash-MTL"). **ICML**, 2022.
+
+  Notes: frame the gradient combination step in MTL as a **bargaining game** and use the **Nash bargaining solution** to find the optimal update direction.
+
 - [**CAGrad**] Liu, B., Liu, X., Jin, X., Stone, P., & Liu, Q. [Conflict-averse gradient descent for multi-task learning](https://proceedings.neurips.cc/paper/2021/hash/9d27fdf2477ffbff837d73ef7ae23db9-Abstract.html "CAGrad"). **NeurIPS**, 2021.
 
   Notes: minimizes the average loss function, while **leveraging the worst local improvement of individual tasks to regularize the algorithm trajectory**.
