@@ -150,8 +150,6 @@ Contents:
 
 #### Learning Architectures
 
-- Pascal, L., Michiardi, P., Bost, X., Huet, B., & Zuluaga, M. A. [Maximum roaming multi-task learning](https://ojs.aaai.org/index.php/AAAI/article/view/17125 "MR"). AAAI, 2021.
-
 - [**LearnToBranch**] Guo, P., Lee, C. Y., & Ulbricht, D. [Learning to branch for multi-task learning](https://proceedings.mlr.press/v119/guo20e.html "LearnToBranch"). **ICML**, 2020.
 
   Notes: propose a **tree-structured network design space** that can **automatically learn how to branch a network**.
