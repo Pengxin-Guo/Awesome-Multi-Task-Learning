@@ -238,6 +238,12 @@ Contents:
 
   Notes: frame the gradient combination step in MTL as a **bargaining game** and use the **Nash bargaining solution** to find the optimal update direction.
 
+- [**Seq.Reptile**] Lee, S., Lee, H., Lee, J., & Hwang, S. J. [Sequential Reptile: Inter-Task Gradient Alignment for Multilingual Learning](https://openreview.net/forum?id=ivQruZvXxtz "Seq.Reptile"). **ICLR**, 2022.
+
+  Notes: they want their model to maximally retain the knowledge of the pretrained model by finding a good trade-off between **minimizing the downstream MTL loss** and **maximizing the cosine similarity between the task gradients**; in order to **consider gradient alignment across tasks** as well, they propose to let the inner-learning trajectory consist of mini-batches **randomly sampled from all tasks**, which they call **Sequential Reptile**.
+
+  Q: Where do they demonstrate "it is crucial for those tasks to align gradients between them in order to maximize knowledge transfer while minimizing negative transfer"? In other world, **is it helpful for model learning to increase the cosine similarity between the task gradients?**
+
 - [**CAGrad**] Liu, B., Liu, X., Jin, X., Stone, P., & Liu, Q. [Conflict-averse gradient descent for multi-task learning](https://proceedings.neurips.cc/paper/2021/hash/9d27fdf2477ffbff837d73ef7ae23db9-Abstract.html "CAGrad"). **NeurIPS**, 2021.
 
   Notes: minimizes the average loss function, while **leveraging the worst local improvement of individual tasks to regularize the algorithm trajectory**.
