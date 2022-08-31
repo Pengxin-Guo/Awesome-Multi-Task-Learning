@@ -188,7 +188,7 @@ Contents:
 
   Notes: in the **soft ordering** approach, a joint model learns *how* to **apply shared layers in different ways at different depths for different tasks** as it simultaneously learns the parameters of the layers themselves.
 
-- Lu, Y., Kumar, A., Zhai, S., Cheng, Y., Javidi, T., & Feris, R. [Fully-adaptive feature sharing in multi-task networks with applications in person attribute classification](https://openaccess.thecvf.com/content_cvpr_2017/html/Lu_Fully-Adaptive_Feature_Sharing_CVPR_2017_paper.html). **CVPR**, 2017.
+- [**FAFS**] Lu, Y., Kumar, A., Zhai, S., Cheng, Y., Javidi, T., & Feris, R. [Fully-adaptive feature sharing in multi-task networks with applications in person attribute classification](https://openaccess.thecvf.com/content_cvpr_2017/html/Lu_Fully-Adaptive_Feature_Sharing_CVPR_2017_paper.html "FAFS"). **CVPR**, 2017.
 
   Notes: starts with a thin multi-layer network and *dynamically* **widens** it in a greedy manner during training; creates a **tree-like deep architecture**, on which **similar tasks reside in the same branch** until at the top layers.
 
