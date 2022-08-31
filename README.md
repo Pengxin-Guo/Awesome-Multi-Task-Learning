@@ -2,10 +2,6 @@
 
 Paper List for Multi-Task Learning (focus on architectures and optimization for MTL). (Since 2016)
 
-Conference: ICML, NeurIPS, ICLR, CVPR, ICCV, ECCV, KDD, UAI, ECML PKDD, etc.
-
-Journal: TPAMI, TIP, JMLR, Machine Learning, Artificial Intelligence, etc.
-
 Contents:
 
 - Architectures for Multi-Task Learning
