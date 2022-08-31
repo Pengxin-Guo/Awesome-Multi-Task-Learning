@@ -244,7 +244,7 @@ Contents:
 
 - [**RotoGrad**] Javaloy, A., & Valera, I. [RotoGrad: Gradient Homogenization in Multitask Learning](https://openreview.net/forum?id=T8wHz4rnuGL "RotoGrad"). **ICLR**, 2022.
 
-  Notes: **jointly homogenizes gradient magnitudes and directions**; address the **magnitude differences** by **re-weighting task gradients** at each step of the learning, while **encouraging learning those tasks that have converged the least thus far**; address the **conflicting directions** by smoothly **rotating the shared feature space differently for each task**, seamlessly aligning gradients in the long run.
+  Notes: **jointly homogenize gradient magnitudes and directions**; address the **magnitude differences** by **re-weighting task gradients** at each step of the learning, while **encouraging learning those tasks that have converged the least thus far**; address the **conflicting directions** by smoothly **rotating the shared feature space differently for each task**, seamlessly aligning gradients in the long run.
 
 - [**CAGrad**] Liu, B., Liu, X., Jin, X., Stone, P., & Liu, Q. [Conflict-averse gradient descent for multi-task learning](https://proceedings.neurips.cc/paper/2021/hash/9d27fdf2477ffbff837d73ef7ae23db9-Abstract.html "CAGrad"). **NeurIPS**, 2021.
 
