@@ -21,6 +21,10 @@ Contents:
 
 #### Manually Designed Architectures
 
+- [**Medusa**] Spencer, J., Bowden, R., & Hadfield, S. [Medusa: Universal Feature Learning via Attentional Multitasking](https://openaccess.thecvf.com/content/CVPR2022W/CLVision/html/Spencer_Medusa_Universal_Feature_Learning_via_Attentional_Multitasking_CVPRW_2022_paper.html "Medusa"). **CVPR workshop**, 2022.
+
+  Notes: **shared feature attention** (**spatial attention**) masks relevant backbone features for each task, allowing it to learn a generic representation; a novel **Multi-Scale Attention** head allows the network to better combine per-task features from different scales when making the final prediction.
+
 - [**CA-MTL**] Pilault, J., & Pal, C. [Conditionally Adaptive Multi-Task Learning: Improving Transfer Learning in NLP Using Fewer Parameters & Less Data](https://openreview.net/forum?id=de11dbHzAMF "CA-MTL"). **ICLR**, 2021.
 
   Notes: consisting of a new **conditional attention mechanism** as well as a set of task-conditioned modules (**conditional alignment** and **conditional layer normalization**).
