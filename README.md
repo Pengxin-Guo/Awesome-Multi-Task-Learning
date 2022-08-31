@@ -21,8 +21,6 @@ Contents:
 
 #### Manually Designed Architectures
 
-- Javaloy, A., & Valera, I. [RotoGrad: Gradient Homogenization in Multitask Learning](https://openreview.net/forum?id=T8wHz4rnuGL "RotoGrad"). ICLR, 2022.
-
 - [**CA-MTL**] Pilault, J., & Pal, C. [Conditionally Adaptive Multi-Task Learning: Improving Transfer Learning in NLP Using Fewer Parameters & Less Data](https://openreview.net/forum?id=de11dbHzAMF "CA-MTL"). **ICLR**, 2021.
 
   Notes: consisting of a new **conditional attention mechanism** as well as a set of task-conditioned modules (**conditional alignment** and **conditional layer normalization**).
@@ -243,6 +241,10 @@ Contents:
   Notes: they want their model to maximally retain the knowledge of the pretrained model by finding a good trade-off between **minimizing the downstream MTL loss** and **maximizing the cosine similarity between the task gradients**; in order to **consider gradient alignment across tasks** as well, they propose to let the inner-learning trajectory consist of mini-batches **randomly sampled from all tasks**, which they call **Sequential Reptile**.
 
   Q: Where do they demonstrate "it is crucial for those tasks to align gradients between them in order to maximize knowledge transfer while minimizing negative transfer"? In other world, **is it helpful for model learning to increase the cosine similarity between the task gradients?**
+
+- [**RotoGrad**] Javaloy, A., & Valera, I. [RotoGrad: Gradient Homogenization in Multitask Learning](https://openreview.net/forum?id=T8wHz4rnuGL "RotoGrad"). **ICLR**, 2022.
+
+  Notes: **jointly homogenizes gradient magnitudes and directions**; address the **magnitude differences** by **re-weighting task gradients** at each step of the learning, while **encouraging learning those tasks that have converged the least thus far**; address the **conflicting directions** by smoothly **rotating the shared feature space differently for each task**, seamlessly aligning gradients in the long run.
 
 - [**CAGrad**] Liu, B., Liu, X., Jin, X., Stone, P., & Liu, Q. [Conflict-averse gradient descent for multi-task learning](https://proceedings.neurips.cc/paper/2021/hash/9d27fdf2477ffbff837d73ef7ae23db9-Abstract.html "CAGrad"). **NeurIPS**, 2021.
 
