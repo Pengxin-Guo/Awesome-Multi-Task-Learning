@@ -305,6 +305,14 @@ Contents:
 
 ## Others
 
+- [**SRDML**] Bai, G., & Zhao, L. [Saliency-Regularized Deep Multi-Task Learning](https://dl.acm.org/doi/abs/10.1145/3534678.3539442?casa_token=yeg0_7ssl1IAAAAA:i-TgT5J_YELpo749FRj2Sp0pPXk8B906sYlyYWj_DC6GVt5ECfmiXQxhLnHcsrTyY6MGGIG6B1c "SRDML"). **KDD**, 2022.
+
+  Notes: **model the task relation as the similarity between tasks’ input gradients**.
+
+  Q1: **Why tasks’ input gradients can be regard as an measurement of task relations?**
+
+  Q2: **It seems only can be applied to classification tasks**.
+
 - [**TAG**] Fifty, C., Amid, E., Zhao, Z., Yu, T., Anil, R., & Finn, C. [Efficiently identifying task groupings for multi-task learning](https://proceedings.neurips.cc/paper/2021/hash/e77910ebb93b511588557806310f78f1-Abstract.html "TAG"). **NeurIPS**, 2021.
 
   Notes: suggest a measure of **inter-task affinity** that can be used to systematically and efficiently determine **task groupings** for multi-task learning; measure inter-task affinity by training all tasks together in a single multi-task network and **quantifying the effect to which one task’s gradient update would affect another task’s loss**.
