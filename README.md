@@ -286,7 +286,7 @@ Contents:
   
   Q: **Does it necessary to make the gradient magnitudes of different tasks to a common scale?** or **Why?**
   
-- [**MGDA**] Sener, O., & Koltun, V. [Multi-task learning as multi-objective optimization](https://proceedings.neurips.cc/paper/2018/hash/432aca3a1e345e339f35a30c8f65edce-Abstract.html "MGDA"). **NeurIPS**, 2018.
+- [**MGDA-UB**] Sener, O., & Koltun, V. [Multi-task learning as multi-objective optimization](https://proceedings.neurips.cc/paper/2018/hash/432aca3a1e345e339f35a30c8f65edce-Abstract.html "MGDA-UB"). **NeurIPS**, 2018.
 
   Notes: cast multi-task learning as **multi-objective optimization**; provide **an upper bound** for the multiple-gradient descent algorithm (**MGDA**) optimization objective and show that it can be computed via **a single backward pass**.
 
