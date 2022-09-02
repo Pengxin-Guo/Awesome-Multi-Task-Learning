@@ -8,7 +8,6 @@ Contents:
   - Manually Designed Architectures
   - Learning Architectures
 - Optimization for Multi-Task Learning
-  - Optimization Techniques
   - Loss Balancing
   - Gradient Balancing
 - Others
@@ -199,8 +198,6 @@ Contents:
   Notes: starts with a thin multi-layer network and *dynamically* **widens** it in a greedy manner during training; creates a **tree-like deep architecture**, on which **similar tasks reside in the same branch** until at the top layers.
 
 ## Optimization for Multi-Task Learning
-
-#### Optimization Techniques
 
 #### Loss Balancing
 
