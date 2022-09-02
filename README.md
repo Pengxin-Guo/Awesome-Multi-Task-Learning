@@ -17,6 +17,12 @@ Contents:
 
 #### Manually Designed Architectures
 
+- [**MulT**] Bhattacharjee, D., Zhang, T., Süsstrunk, S., & Salzmann, M. [MulT: An End-to-End Multitask Learning Transformer](https://openaccess.thecvf.com/content/CVPR2022/html/Bhattacharjee_MulT_An_End-to-End_Multitask_Learning_Transformer_CVPR_2022_paper.html "MulT"). **CVPR**, 2022.
+
+  Notes: at the heart of their approach is **a shared attention mechanism** modeling the dependencies across the tasks.
+
+  Q: **How to select the reference task if the surface normal task not in these tasks? Can we automatically choose the reference task?**
+
 - [**Medusa**] Spencer, J., Bowden, R., & Hadfield, S. [Medusa: Universal Feature Learning via Attentional Multitasking](https://openaccess.thecvf.com/content/CVPR2022W/CLVision/html/Spencer_Medusa_Universal_Feature_Learning_via_Attentional_Multitasking_CVPRW_2022_paper.html "Medusa"). **CVPR workshop**, 2022.
 
   Notes: **shared feature attention** (**spatial attention**) masks relevant backbone features for each task, allowing it to learn a generic representation; a novel **Multi-Scale Attention** head allows the network to better combine per-task features from different scales when making the final prediction.
