@@ -4,13 +4,13 @@ Paper List for Multi-Task Learning (focus on architectures and optimization for 
 
 Contents:
 
-- [Architectures for Multi-Task Learning](#architectures-for-multi-task-learning)
-  - [Manually Designed Architectures](#manually-designed-architectures)
-  - [Learning Architectures](#learning-architectures)
-- [Optimization for Multi-Task Learning](#optimization-for-multi-task-learning)
-  - [Loss Balancing](#loss-balancing)
-  - [Gradient Balancing](#gradient-balancing)
-- [Others](#others)
+- Architectures for Multi-Task Learning
+  - Manually Designed Architectures
+  - Learning Architectures
+- Optimization for Multi-Task Learning
+  - Loss Balancing
+  - Gradient Balancing
+- Others
 
 ## Architectures for Multi-Task Learning
 
@@ -306,7 +306,7 @@ Contents:
 
   Q3: They simply apply a **channel-wise scaling vector** in their method, what will happen if we use **both channel attention and spatial attention**?
 
-## <span id="others">Others</span>
+## Others
 
 - [**SRDML**] Bai, G., & Zhao, L. [Saliency-Regularized Deep Multi-Task Learning](https://dl.acm.org/doi/abs/10.1145/3534678.3539442?casa_token=yeg0_7ssl1IAAAAA:i-TgT5J_YELpo749FRj2Sp0pPXk8B906sYlyYWj_DC6GVt5ECfmiXQxhLnHcsrTyY6MGGIG6B1c "SRDML"). **KDD**, 2022.
 
