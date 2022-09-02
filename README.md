@@ -10,7 +10,7 @@ Contents:
 - [Optimization for Multi-Task Learning](#optimization-for-multi-task-learning)
   - [Loss Balancing](#loss-balancing)
   - [Gradient Balancing](#gradient-balancing)
-- [Others](#others)
+- [Others](https://github.com/gpx333/Awesome-Multi-Task-Learning#others)
 
 ## Architectures for Multi-Task Learning
 
