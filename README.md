@@ -4,13 +4,13 @@ Paper List for Multi-Task Learning (focus on architectures and optimization for 
 
 Contents:
 
-- Architectures for Multi-Task Learning
-  - Manually Designed Architectures
-  - Learning Architectures
-- Optimization for Multi-Task Learning
-  - Loss Balancing
-  - Gradient Balancing
-- Others
+- [Architectures for Multi-Task Learning](#Architectures for Multi-Task Learning)
+  - [Manually Designed Architectures](#Manually Designed Architectures)
+  - [Learning Architectures](#Learning Architectures)
+- [Optimization for Multi-Task Learning](#Optimization for Multi-Task Learning)
+  - [Loss Balancing](#Loss Balancing)
+  - [Gradient Balancing](#Gradient Balancing)
+- [Others](#Others)
 
 ## Architectures for Multi-Task Learning
 
