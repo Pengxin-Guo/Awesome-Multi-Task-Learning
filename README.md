@@ -4,13 +4,13 @@ Paper List for Multi-Task Learning (focus on architectures and optimization for 
 
 Contents:
 
-- [Architectures for Multi-Task Learning](#Architectures for Multi-Task Learning)
-  - [Manually Designed Architectures](#Manually Designed Architectures)
-  - [Learning Architectures](#Learning Architectures)
-- [Optimization for Multi-Task Learning](#Optimization for Multi-Task Learning)
-  - [Loss Balancing](#Loss Balancing)
-  - [Gradient Balancing](#Gradient Balancing)
-- [Others](#Others)
+- [Architectures for Multi-Task Learning](https://github.com/gpx333/Awesome-Multi-Task-Learning#Architectures for Multi-Task Learning)
+  - [Manually Designed Architectures](https://github.com/gpx333/Awesome-Multi-Task-Learning#Manually Designed Architectures)
+  - [Learning Architectures](https://github.com/gpx333/Awesome-Multi-Task-Learning#Learning Architectures)
+- [Optimization for Multi-Task Learning](https://github.com/gpx333/Awesome-Multi-Task-Learning#Optimization for Multi-Task Learning)
+  - [Loss Balancing](https://github.com/gpx333/Awesome-Multi-Task-Learning#Loss Balancing)
+  - [Gradient Balancing](https://github.com/gpx333/Awesome-Multi-Task-Learning#Gradient Balancing)
+- [Others](https://github.com/gpx333/Awesome-Multi-Task-Learning#Others)
 
 ## Architectures for Multi-Task Learning
 
