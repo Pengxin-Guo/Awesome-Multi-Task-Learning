@@ -113,6 +113,10 @@ Contents:
 
   Notes: consists of **three attention-based relationship learning modules**: **task-task relationship**, **feature-feature interaction**, and **task-feature dependence**.
 
+- [**MT-DNN**] Liu, X., He, P., Chen, W., & Gao, J. [Multi-task deep neural networks for natural language understanding](https://aclanthology.org/P19-1441/?utm_campaign=NLP%20News&utm_medium=email&utm_source=Revue%20newsletter "MT-DNN"). **ACL**, 2019.
+
+  Notes: a hard parameter sharing architecture for NLP.
+
 - [**PS-MCNN**] Cao, J., Li, Y., & Zhang, Z. [Partially shared multi-task convolutional neural network with local constraint for face attribute learning](https://openaccess.thecvf.com/content_cvpr_2018/html/Cao_Partially_Shared_Multi-Task_CVPR_2018_paper.html "PS-MCNN"). **CVPR**, 2018.
 
   Notes: the key idea of **PS-MCNN** lies in **sharing a common network for all the groups to learn shared features**, and **constructing group specific network for each group** from the beginning of the architecture to its end to **learn task specific features**; four Task Specific Networks (**TSNets**) and one Shared Network (**SNet**) are connected by Partially Shared (**PS**) structures to learn better **shared** and **task specific** representations.
