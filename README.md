@@ -117,6 +117,10 @@ Contents:
 
   Notes: a hard parameter sharing architecture for NLP.
 
+- [**Sluice**] Ruder, S., Bingel, J., Augenstein, I., & Søgaard, A. [Latent multi-task architecture learning](https://ojs.aaai.org/index.php/AAAI/article/view/4410 "Sluice"). **AAAI**, 2019.
+
+  Notes: learning (a) what layers to share between deep recurrent neural networks, but also (b) which parts of those layers to share, and with what strength, as well as (c) a mixture model of skip connections at the architecture’s outer layer.
+
 - [**PS-MCNN**] Cao, J., Li, Y., & Zhang, Z. [Partially shared multi-task convolutional neural network with local constraint for face attribute learning](https://openaccess.thecvf.com/content_cvpr_2018/html/Cao_Partially_Shared_Multi-Task_CVPR_2018_paper.html "PS-MCNN"). **CVPR**, 2018.
 
   Notes: the key idea of **PS-MCNN** lies in **sharing a common network for all the groups to learn shared features**, and **constructing group specific network for each group** from the beginning of the architecture to its end to **learn task specific features**; four Task Specific Networks (**TSNets**) and one Shared Network (**SNet**) are connected by Partially Shared (**PS**) structures to learn better **shared** and **task specific** representations.
