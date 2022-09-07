@@ -193,6 +193,10 @@ Contents:
 
   Notes: the **SFGs** learns to **allocate kernels in each convolution layer into either ''specialist'' groups or a ''shared'' trunk**, which are specific to or shared across different tasks, respectively.
 
+- [**SNR**] Ma, J., Zhao, Z., Chen, J., Li, A., Hong, L., & Chi, E. H.  [Snr: Sub-network routing for flexible parameter sharing in multi-task learning](https://ojs.aaai.org/index.php/AAAI/article/view/3788 "SNR"). **AAAI**, 2019.
+
+  Notes: modularize the shared low-level hidden layers into multiple layers of subnetworks, and controls the connection of sub-networks with learnable latent variables to achieve flexible parameter sharing.
+
 - [**Routing Network**] Rosenbaum, C., Klinger, T., & Riemer, M. [Routing Networks: Adaptive Selection of Non-Linear Functions for Multi-Task Learning](https://openreview.net/forum?id=ry8dvM-R- "Routing Network"). **ICLR**, 2018.
 
   Notes: **Routing** is the process of iteratively applying the **router** to select a sequence of **function blocks** to be composed and applied to the input vector.
