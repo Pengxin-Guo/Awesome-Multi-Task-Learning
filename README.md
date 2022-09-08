@@ -205,6 +205,10 @@ Contents:
 
   Notes: in the **soft ordering** approach, a joint model learns *how* to **apply shared layers in different ways at different depths for different tasks** as it simultaneously learns the parameters of the layers themselves.
 
+- [**CMTR**] Liang, J., Meyerson, E., & Miikkulainen, R. [Evolutionary architecture search for deep multitask networks](https://dl.acm.org/doi/abs/10.1145/3205455.3205489?casa_token=nF-IgeO-R-0AAAAA:ByPuKuG6UHx1Tx-_RBOSMgL6QATRkXhv-5iCFloAWxl3jNa18JK5UwB1yaouToZzdZM7JGf3Eio "CMTR"). **GECCO**, 2018.
+
+  Notes: based on **soft ordering** architecture, methods for **evolving the modules** of this architecture and for **evolving the overall topology or routing between modules** are evaluated.
+
 - [**FAFS**] Lu, Y., Kumar, A., Zhai, S., Cheng, Y., Javidi, T., & Feris, R. [Fully-adaptive feature sharing in multi-task networks with applications in person attribute classification](https://openaccess.thecvf.com/content_cvpr_2017/html/Lu_Fully-Adaptive_Feature_Sharing_CVPR_2017_paper.html "FAFS"). **CVPR**, 2017.
 
   Notes: starts with a thin multi-layer network and *dynamically* **widens** it in a greedy manner during training; creates a **tree-like deep architecture**, on which **similar tasks reside in the same branch** until at the top layers.
