@@ -10,7 +10,7 @@ Contents:
 - Optimization for Multi-Task Learning
   - Loss Balancing
   - Gradient Balancing
-- Others
+- [Others](#others)
 
 ## Architectures for Multi-Task Learning
 
