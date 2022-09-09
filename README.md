@@ -185,6 +185,12 @@ Contents:
 
   Notes: automatically define branching (tree-like) structures in the encoding stage of a multi-task neural network.
 
+- [**Sparse sharing**] Sun, T., Shao, Y., Li, X., Liu, P., Yan, H., Qiu, X., & Huang, X. [Learning sparse sharing architectures for multiple tasks](https://ojs.aaai.org/index.php/AAAI/article/view/6424 "Sparse sharing"). **AAAI**, 2020.
+
+  Notes: start with an over-parameterized base network, from which **each task extracts a subnetwork**; employ **a binary mask matrix** to select subnet from the base network for each task; employ **Iterative Magnitude Pruning**  (IMP) to generate subnets for tasks.
+
+  Q: Can we learn the binary mask matrix and network parameters together in an end-to-end manner?
+
 - [**DEN**] Ahn, C., Kim, E., & Oh, S. [Deep elastic networks with model selection for multi-task learning](https://openaccess.thecvf.com/content_ICCV_2019/html/Ahn_Deep_Elastic_Networks_With_Model_Selection_for_Multi-Task_Learning_ICCV_2019_paper.html "DEN"). **ICCV**, 2019.
 
   Notes: the proposed method consists of an **estimator** and a **selector**, the estimator can produce multiple different network models of different configurations in a hierarchical structure, the selector chooses a model dynamically from a pool of candidate models given an input instance.
