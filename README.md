@@ -189,7 +189,7 @@ Contents:
 
   Notes: start with an over-parameterized base network, from which **each task extracts a subnetwork**; employ **a binary mask matrix** to select subnet from the base network for each task; employ **Iterative Magnitude Pruning**  (IMP) to generate subnets for tasks.
 
-  Q: Can we learn the binary mask matrix and network parameters together in an end-to-end manner?
+  Q: The IMP algorithm is time-consuming. **Can we learn the binary mask matrix and network parameters together in an end-to-end manner?**
 
 - [**DEN**] Ahn, C., Kim, E., & Oh, S. [Deep elastic networks with model selection for multi-task learning](https://openaccess.thecvf.com/content_ICCV_2019/html/Ahn_Deep_Elastic_Networks_With_Model_Selection_for_Multi-Task_Learning_ICCV_2019_paper.html "DEN"). **ICCV**, 2019.
 
