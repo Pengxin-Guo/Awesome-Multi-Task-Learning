@@ -223,6 +223,14 @@ Contents:
 
 #### Loss Balancing
 
+- [**Auto-$\lambda$**] Liu, S., James, S., Davison, A. J., & Johns, E. [Auto-Lambda: Disentangling Dynamic Task Relationships](https://openreview.net/forum?id=KKeCMim5VN "Auto-$\lambda$"). **TMLR**, 2022.
+
+  Notes: explore **dynamic task relationships** parameterised by task-specific weightings; the design of Auto-$\lambda$ borrows the concept of **lookahead** methods in meta learning literature, to update parameters at the current state of learning, based on the observed effect of those parameters on a future state; formulate a **bi-level optimisation** problem.
+  
+  Finding: **Task relationships are consistent**. The learned weightings with both the NYUv2 and CityScapes datasets are nearly identical, given the same optimisation strategies, independent of the network architectures; **Task relationships are asymmetric**; **Task relationships are dynamic**.
+  
+  Q: Why "high weightings emerge when tasks are strongly related"? **Can the loss weighting be used to represent the task relationships?**
+  
 - [**LSB**] Lee, J. H., Lee, C., & Kim, C. S. [Learning Multiple Pixelwise Tasks Based on Loss Scale Balancing](https://openaccess.thecvf.com/content/ICCV2021/html/Lee_Learning_Multiple_Pixelwise_Tasks_Based_on_Loss_Scale_Balancing_ICCV_2021_paper.html "LSB"). **ICCV**, 2021.
 
   Notes: dynamically adjusts the linear weights to learn all tasks effectively by **balancing the loss scale** (**the product of the loss value and its weight**) periodically.
