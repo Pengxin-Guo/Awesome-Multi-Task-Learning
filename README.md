@@ -143,6 +143,10 @@ Contents:
 
   Notes: an **image pyramid** is formed by **successive down-sampling** operations, and each image is processed by a CNN with tied weights.
 
+- [**JMT**] Hashimoto, K., Xiong, C., Tsuruoka, Y., & Socher, R. [A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks](https://aclanthology.org/D17-1206/ "JMT"). **EMNLP**, 2017.
+
+  Notes: successively growing its depth to solve increasingly complex tasks.
+
 - [**multinet**] Bilen, H., & Vedaldi, A. [Integrated perception with recurrent multi-task neural networks](https://proceedings.neurips.cc/paper/2016/hash/06409663226af2f3114485aa4e0a23b4-Abstract.html "multinet"). **NeurIPS**, 2016.
 
   Notes: not only **deep image features are shared** between tasks, but where tasks can interact in a **recurrent** manner by encoding the results of their analysis in a common shared representation of the data.
@@ -154,6 +158,10 @@ Contents:
 - [**MNC**] Dai, J., He, K., & Sun, J. [Instance-aware semantic segmentation via multi-task network cascades](https://openaccess.thecvf.com/content_cvpr_2016/html/Dai_Instance-Aware_Semantic_Segmentation_CVPR_2016_paper.html "MNC"). **CVPR**, 2016.
 
   Notes: decompose the **instance-aware semantic segmentation** task into three different and related sub-tasks; expect that each sub-task is **simpler** than the original instance segmentation task, and is **more easily** addressed by convolutional networks; their network **cascades** have three stages, each of which addresses one sub-task.
+
+- Søgaard, A., & Goldberg, Y. [Deep multi-task learning with low level tasks supervised at lower layers](https://aclanthology.org/P16-2038/). **ACL**, 2016.
+
+  Notes: different tasks supervision can happen at different layers; **use different layers for different tasks**.
 
 - [**FCNN**] Li, X., Zhao, L., Wei, L., Yang, M. H., Wu, F., Zhuang, Y., ... & Wang, J. [Deepsaliency: Multi-task deep neural network model for salient object detection](https://ieeexplore.ieee.org/abstract/document/7488288 "FCNN"). **TIP**, 2016.
 
