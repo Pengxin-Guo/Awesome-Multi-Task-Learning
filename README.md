@@ -199,6 +199,10 @@ Contents:
 
   Q: The IMP algorithm is time-consuming. **Can we learn the binary mask matrix and network parameters together in an end-to-end manner?**
 
+- [**BMTN**] Vandenhende, S., Georgoulis, S., De Brabandere, B., & Van Gool, L. [Branched multi-task networks: Deciding what layers to share](https://www.bmvc2020-conference.com/assets/papers/0213.pdf "BMTN"). **BMVC**, 2020.
+
+  Notes: automatically **decide what layers to share and where to branch out**, by leveraging the employed **tasks’ affinities**; rely on **representation similarity analysis**  (RSA) to measure task affinity scores; the task affinity (and dissimilarity) scores are calculated a priori, this allows them to **determine the task clustering offline**.
+
 - [**DEN**] Ahn, C., Kim, E., & Oh, S. [Deep elastic networks with model selection for multi-task learning](https://openaccess.thecvf.com/content_ICCV_2019/html/Ahn_Deep_Elastic_Networks_With_Model_Selection_for_Multi-Task_Learning_ICCV_2019_paper.html "DEN"). **ICCV**, 2019.
 
   Notes: the proposed method consists of an **estimator** and a **selector**, the estimator can produce multiple different network models of different configurations in a hierarchical structure, the selector chooses a model dynamically from a pool of candidate models given an input instance.
