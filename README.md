@@ -121,7 +121,7 @@ Contents:
 
   Notes: learning (a) what layers to share between deep recurrent neural networks, but also (b) which parts of those layers to share, and with what strength, as well as (c) a mixture model of skip connections at the architecture’s outer layer.
 
-- Sanh, V., Wolf, T., & Ruder, S. [A hierarchical multi-task approach for learning embeddings from semantic tasks](https://ojs.aaai.org/index.php/AAAI/article/view/4673). **AAAI**, 2019.
+- [**HMTL**] Sanh, V., Wolf, T., & Ruder, S. [A hierarchical multi-task approach for learning embeddings from semantic tasks](https://ojs.aaai.org/index.php/AAAI/article/view/4673 "HMTL"). **AAAI**, 2019.
 
   Notes: The model is trained in a **hierarchical fashion** to introduce an inductive bias by supervising a set of **low level tasks at the bottom layers** of the model and **more complex tasks at the top layers** of the model.
 
