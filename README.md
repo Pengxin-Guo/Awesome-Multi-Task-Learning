@@ -275,6 +275,10 @@ Contents:
 
   Notes: learn the multi-task model in a **self-paced** regime, **from easy instances and tasks to hard instances and tasks**.
 
+- [**spMTL**] Murugesan, K., & Carbonell, A. [Self-paced multitask learning with shared knowledge](https://dl.acm.org/doi/abs/10.5555/3172077.3172239 ""spMTL). **IJCAI**, 2017.
+
+  Notes: **start with easier set of tasks, and gradually introduces more difficult ones** to build the shared knowledge base.
+
 - [**AW**] He, K., Wang, Z., Fu, Y., Feng, R., Jiang, Y. G., & Xue, X. [Adaptively weighted multi-task deep network for person attribute classification](https://dl.acm.org/doi/abs/10.1145/3123266.3123424?casa_token=pfHyV9_ZwtkAAAAA:XhNuK56vpssZRv9OeuDy0QM08gNacwLTKkDDvHKmJLrkP1XjcHD1SLuHNtemzdwX74fA26Oa-G2zjw "AW"). **MM**, 2017.
 
   Notes: propose an **adaptively weighted multi-task deep framework** to jointly learn multiple person attributes, and **a validation loss trend algorithm** to automatically update the weights of weighted loss layer; **the weights are dynamically changed** in the training process according to the **generalization ability** of each task learner, which are approximately **measured by the validation set**; the trained model of one task with **lower generation ability should be set higher weight** than those models of the other tasks.
