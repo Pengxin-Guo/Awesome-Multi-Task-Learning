@@ -275,7 +275,7 @@ Contents:
 
   Notes: learn the multi-task model in a **self-paced** regime, **from easy instances and tasks to hard instances and tasks**.
 
-- [**spMTL**] Murugesan, K., & Carbonell, A. [Self-paced multitask learning with shared knowledge](https://dl.acm.org/doi/abs/10.5555/3172077.3172239 ""spMTL). **IJCAI**, 2017.
+- [**spMTL**] Murugesan, K., & Carbonell, A. [Self-paced multitask learning with shared knowledge](https://dl.acm.org/doi/abs/10.5555/3172077.3172239 "spMTL"). **IJCAI**, 2017.
 
   Notes: **start with easier set of tasks, and gradually introduces more difficult ones** to build the shared knowledge base.
 
