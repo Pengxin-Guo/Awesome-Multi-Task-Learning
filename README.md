@@ -323,6 +323,10 @@ Contents:
 
   Q: **Is it necessary to operate on the positive gradient similarity?**
 
+- [**MTAdam**] Malkiel, I., & Wolf, L. [MTAdam: Automatic Balancing of Multiple Training Loss Terms](https://aclanthology.org/2021.emnlp-main.837/ "MTAdam"). **EMNLP**, 2021.
+
+  Notes: generalize the Adam optimization algorithm to handle multiple loss terms, and the guiding principle is that for every layer, **the gradient magnitude of the terms should be balanced**; the MTAdam computes the derivative of each loss term separately, infers the first and second moments per parameter and loss term, and calculates a first moment for the magnitude per layer of the gradients arising from each loss, this magnitude is used to continuously balance the gradients across all layers, in a manner that both varies from one layer to the next and dynamically changes over time.
+
 - [**PCGrad**] Yu, T., Kumar, S., Gupta, A., Levine, S., Hausman, K., & Finn, C. [Gradient surgery for multi-task learning](https://proceedings.neurips.cc/paper/2020/hash/3fe78a8acf5fda99de95303940a2420c-Abstract.html "PCGrad"). **NeurIPS**, 2020.
 
   Notes: projects a task’s gradient onto the normal plane of the gradient of any other task that has a **conflicting** gradient.
