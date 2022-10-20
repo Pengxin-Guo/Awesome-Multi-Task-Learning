@@ -250,13 +250,6 @@ Contents:
 - [**MOML**] Ye, F., Lin, B., Yue, Z., Guo, P., Xiao, Q., & Zhang, Y. [Multi-objective meta learning](https://proceedings.neurips.cc/paper/2021/hash/b23975176653284f1f7356ba5539cfcb-Abstract.html "MOML"). **NeurIPS**, 2021.
 
   Notes: MOML formulates the objective function of meta learning with multiple objectives as a Multi-Objective Bi-Level optimization Problem (MOBLP) where the upper-level subproblem is to solve several possibly conflicting objectives for the meta learner; formulate the optimization problem in MTL as an MOBLP based on the split of the entire training dataset and solve this problem based on the MOML framework.
-  $$
-  \begin{aligned}
-  &\min _{\boldsymbol{\alpha}}\left(\mathcal{L}_{M T L}\left(\omega^*(\boldsymbol{\alpha}), \mathcal{D}_1^{v a l}\right), \ldots, \mathcal{L}_{M T L}\left(\omega^*(\boldsymbol{\alpha}), \mathcal{D}_m^{\text {val }}\right)\right) \\
-  &\text { s.t. } \omega^*(\boldsymbol{\alpha})=\arg \min _\omega \sum_{i=1}^m \alpha_i \mathcal{L}_{M T L}\left(\omega, \mathcal{D}_i^{\text {tr }}\right), 0 \leq \alpha_i \leq 1 \forall i, \sum_i^m \alpha_i=1,
-  \end{aligned}
-  $$
-  
 
 - [**LSB**] Lee, J. H., Lee, C., & Kim, C. S. [Learning Multiple Pixelwise Tasks Based on Loss Scale Balancing](https://openaccess.thecvf.com/content/ICCV2021/html/Lee_Learning_Multiple_Pixelwise_Tasks_Based_on_Loss_Scale_Balancing_ICCV_2021_paper.html "LSB"). **ICCV**, 2021.
 
