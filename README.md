@@ -239,6 +239,10 @@ Contents:
 
 #### Loss Balancing
 
+- [**RW**] Lin, B., Ye, F., Zhang, Y., & Tsang, I. W. [Reasonable Effectiveness of Random Weighting: A Litmus Test for Multi-Task Learning](https://openreview.net/forum?id=jjtFD8A1Wx "RW"). **TMLR**, 2022.
+
+  Notes: propose the Random Weighting (**RW**) methods, including Random Loss Weighting (**RLW**) and Random Gradient Weighting (**RGW**), where an MTL model is trained with random loss/gradient weights sampled from a distribution.
+  
 - [**Auto-λ**] Liu, S., James, S., Davison, A. J., & Johns, E. [Auto-Lambda: Disentangling Dynamic Task Relationships](https://openreview.net/forum?id=KKeCMim5VN "Auto-$\lambda$"). **TMLR**, 2022.
 
   Notes: explore **dynamic task relationships** parameterised by task-specific weightings; the design of Auto-![](http://latex.codecogs.com/svg.latex?\lambda) borrows the concept of **lookahead** methods in meta learning literature, to update parameters at the current state of learning, based on the observed effect of those parameters on a future state; formulate a **bi-level optimisation** problem.
