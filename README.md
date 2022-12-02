@@ -173,6 +173,10 @@ Contents:
 
 #### Learning Architectures
 
+- [**AutoMTL**] Zhang, L., Liu, X., & Guan, H. [AutoMTL: A Programming Framework for Automating Efficient Multi-Task Learning](https://openreview.net/forum?id=98TSEoHOoQE "AutoMTL"). **NeurIPS**, 2022.
+
+  Notes: very similar to [AdaShare](https://proceedings.neurips.cc/paper/2020/hash/634841a6831464b64c072c8510c7f35c-Abstract.html).
+
 - [**LearnToBranch**] Guo, P., Lee, C. Y., & Ulbricht, D. [Learning to branch for multi-task learning](https://proceedings.mlr.press/v119/guo20e.html "LearnToBranch"). **ICML**, 2020.
 
   Notes: propose a **tree-structured network design space** that can **automatically learn how to branch a network**.
