@@ -16,6 +16,10 @@ Contents:
 
 #### Manually Designed Architectures
 
+- [**Polyhistor**] Liu, Y. C., Ma, C. Y., Tian, J., He, Z., & Kira, Z. [Polyhistor: Parameter-Efficient Multi-Task Adaptation for Dense Vision Tasks](https://openreview.net/forum?id=LCWQ8OYsf-O "Polyhistor"). **NeurIPS**, 2022.
+
+  Notes: propose Polyhistor and Polyhistor-Lite, consisting of **Decomposed HyperNetworks** and **Layer-wise Scaling Kernels**, to share information across different tasks with a few trainable parameters.
+
 - [**MulT**] Bhattacharjee, D., Zhang, T., Süsstrunk, S., & Salzmann, M. [MulT: An End-to-End Multitask Learning Transformer](https://openaccess.thecvf.com/content/CVPR2022/html/Bhattacharjee_MulT_An_End-to-End_Multitask_Learning_Transformer_CVPR_2022_paper.html "MulT"). **CVPR**, 2022.
 
   Notes: at the heart of their approach is **a shared attention mechanism** modeling the dependencies across the tasks.
