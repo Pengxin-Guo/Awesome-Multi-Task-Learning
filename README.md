@@ -16,6 +16,10 @@ Contents:
 
 #### Manually Designed Architectures
 
+- [**TaskPrompter**] Ye, H., & Xu, D. [TaskPrompter: Spatial-Channel Multi-Task Prompting for Dense Scene Understanding](https://openreview.net/forum?id=-CwPopPJda "TaskPrompter"). **ICLR**, 2023.
+
+  Notes: learn **task-generic** and **task-specific representation** as well as **cross-task interaction** simultaneously and does not require the design of different types of network modules. 
+
 - [**Polyhistor**] Liu, Y. C., Ma, C. Y., Tian, J., He, Z., & Kira, Z. [Polyhistor: Parameter-Efficient Multi-Task Adaptation for Dense Vision Tasks](https://openreview.net/forum?id=LCWQ8OYsf-O "Polyhistor"). **NeurIPS**, 2022.
 
   Notes: propose Polyhistor and Polyhistor-Lite, consisting of **Decomposed HyperNetworks** and **Layer-wise Scaling Kernels**, to share information across different tasks with a few trainable parameters.
