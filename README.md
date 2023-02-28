@@ -181,7 +181,7 @@ Contents:
 
 #### Learning Architectures
 
-- [**Recon**] SHI, G., Li, Q., Zhang, W., Chen, J., & Wu, X. [Recon: Reducing Conflicting Gradients From the Root For Multi-Task Learning](https://openreview.net/forum?id=ivwZO-HnzG_"Recon"). **ICLR**, 2023.
+- [**Recon**] SHI, G., Li, Q., Zhang, W., Chen, J., & Wu, X. [Recon: Reducing Conflicting Gradients From the Root For Multi-Task Learning](https://openreview.net/forum?id=ivwZO-HnzG_ "Recon"). **ICLR**, 2023.
 
   Notes: for each shared network layer, **select the layers with high conflict scores**, and **turn them to task-specific layers**.
 
