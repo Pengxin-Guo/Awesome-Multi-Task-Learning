@@ -181,6 +181,10 @@ Contents:
 
 #### Learning Architectures
 
+- [**Recon**] SHI, G., Li, Q., Zhang, W., Chen, J., & Wu, X. [Recon: Reducing Conflicting Gradients From the Root For Multi-Task Learning](https://openreview.net/forum?id=ivwZO-HnzG_"Recon"). **ICLR**, 2023.
+
+  Notes: for each shared network layer, **select the layers with high conflict scores**, and **turn them to task-specific layers**.
+
 - [**AutoMTL**] Zhang, L., Liu, X., & Guan, H. [AutoMTL: A Programming Framework for Automating Efficient Multi-Task Learning](https://openreview.net/forum?id=98TSEoHOoQE "AutoMTL"). **NeurIPS**, 2022.
 
   Notes: very similar to [AdaShare](https://proceedings.neurips.cc/paper/2020/hash/634841a6831464b64c072c8510c7f35c-Abstract.html).
