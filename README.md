@@ -181,7 +181,7 @@ Contents:
 
 #### Learning Architectures
 
-- [**Recon**] SHI, G., Li, Q., Zhang, W., Chen, J., & Wu, X. [Recon: Reducing Conflicting Gradients From the Root For Multi-Task Learning](https://openreview.net/forum?id=ivwZO-HnzG_ "Recon"). **ICLR**, 2023.
+- [**Recon**] Shi, G., Li, Q., Zhang, W., Chen, J., & Wu, X. M. [Recon: Reducing Conflicting Gradients From the Root For Multi-Task Learning](https://openreview.net/forum?id=ivwZO-HnzG_ "Recon"). **ICLR**, 2023.
 
   Notes: for each shared network layer, **select the layers with high conflict scores**, and **turn them to task-specific layers**.
 
@@ -312,6 +312,10 @@ Contents:
   Notes: *efficiently* learns multiple related tasks by estimating the **task relationship matrix** from the data; maybe can be formulated as an end-to-end training procedure.
 
 #### Gradient Balancing
+
+- [**MoCo**] Fernando, H. D., Shen, H., Liu, M., Chaudhury, S., Murugesan, K., & Chen, T. [Mitigating Gradient Bias in Multi-objective Learning: A Provably Convergent Approach](https://openreview.net/forum?id=dLAYGdKTi2 "MoCo"). **ICLR**, 2023.
+
+  Notes: develop a stochastic multi-objective gradient correction (**MoCo**) method for multi-objective optimization; address the convergence issues of stochastic MGDA and provably converges to a Pareto stationary point under several stochastic MOO settings.
 
 - [**Nash-MTL**] Navon, A., Shamsian, A., Achituve, I., Maron, H., Kawaguchi, K., Chechik, G., & Fetaya, E. [Multi-task learning as a bargaining game](https://proceedings.mlr.press/v162/navon22a.html "Nash-MTL"). **ICML**, 2022.
 
