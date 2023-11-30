@@ -313,6 +313,8 @@ Contents:
 
 #### Gradient Balancing
 
+- [**FAMO**] Liu, B., Feng, Y., Stone, P., & Liu, Q. FAMO: Fast Adaptive Multitask Optimization. arXiv preprint arXiv:2306.03792. [FAMO: Fast Adaptive Multitask Optimization](https://openreview.net/forum?id=zMeemcUeXL "FAMO"). **NeurIPS**, 2020.
+
 - [**MoCo**] Fernando, H. D., Shen, H., Liu, M., Chaudhury, S., Murugesan, K., & Chen, T. [Mitigating Gradient Bias in Multi-objective Learning: A Provably Convergent Approach](https://openreview.net/forum?id=dLAYGdKTi2 "MoCo"). **ICLR**, 2023.
 
   Notes: develop a stochastic multi-objective gradient correction (**MoCo**) method for multi-objective optimization; address the convergence issues of stochastic MGDA and provably converges to a Pareto stationary point under several stochastic MOO settings.
