@@ -313,7 +313,7 @@ Contents:
 
 #### Gradient Balancing
 
-- [**FAMO**] Liu, B., Feng, Y., Stone, P., & Liu, Q. FAMO: Fast Adaptive Multitask Optimization. arXiv preprint arXiv:2306.03792. [FAMO: Fast Adaptive Multitask Optimization](https://openreview.net/forum?id=zMeemcUeXL "FAMO"). **NeurIPS**, 2023.
+- [**FAMO**] Liu, B., Feng, Y., Stone, P., & Liu, Q. FAMO: Fast Adaptive Multitask Optimization. [FAMO: Fast Adaptive Multitask Optimization](https://openreview.net/forum?id=zMeemcUeXL "FAMO"). **NeurIPS**, 2023.
 
   Notes: decreases task losses in a balanced way using $\mathcal{O}(1)$ space and time.
 
